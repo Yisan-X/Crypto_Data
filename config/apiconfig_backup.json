@@ -1,0 +1,3285 @@
+{
+    "Exchanges": {
+        "Bitfinex": {
+            "Fees": {
+                "spot": 0.001
+            },
+            "Reserved_rate": 0.05
+        },
+        "Binance": {
+            "Fees": {
+                "BTCUSD_spot": {
+                    "maker_fee": 0.0004,
+                    "taker_fee": 0.0006
+                }
+            },
+            "Future_leverage_options": {
+                "BTCUSD": [1, 3, 5, 10, 20],
+                "ETHUSD": [1, 3, 5, 10, 20],
+                "BCHUSD": [1, 3, 5, 10, 20],
+                "XRPUSD": [1, 3, 5, 10, 20],
+                "EOSUSD": [1, 3, 5, 10, 20],
+                "LTCUSD": [1, 3, 5, 10, 20],
+                "TRXUSD": [1, 3, 5, 10, 20],
+                "ETCUSD": [1, 3, 5, 10, 20],
+                "LINKUSD": [1, 3, 5, 10, 20],
+                "XLMUSD": [1, 3, 5, 10, 20],
+                "ADAUSD": [1, 3, 5, 10, 20],
+                "XMRUSD": [1, 3, 5, 10, 20],
+                "DASHUSD": [1, 3, 5, 10, 20],
+                "ZECUSD": [1, 3, 5, 10, 20],
+                "XTZUSD": [1, 3, 5, 10, 20],
+                "BNBUSD": [1, 3, 5, 10, 20],
+                "ATOMUSD": [1, 3, 5, 10, 20],
+                "ONTUSD": [1, 3, 5, 10, 20],
+                "IOTAUSD": [1, 3, 5, 10, 20],
+                "BATUSD": [1, 3, 5, 10, 20],
+                "VETUSD": [1, 3, 5, 10, 20],
+                "NEOUSD": [1, 3, 5, 10, 20],
+                "QTUMUSD": [1, 3, 5, 10, 20],
+                "IOSTUSD": [1, 3, 5, 10, 20],
+                "THETAUSD": [1, 3, 5, 10, 20],
+                "ALGOUSD": [1, 3, 5, 10, 20],
+                "ZILUSD": [1, 3, 5, 10, 20],
+                "KNCUSD": [1, 3, 5, 10, 20],
+                "ZRXUSD": [1, 3, 5, 10, 20],
+                "COMPUSD": [1, 3, 5, 10, 20],
+                "OMGUSD": [1, 3, 5, 10, 20],
+                "DOGEUSD": [1, 3, 5, 10, 20],
+                "SXPUSD": [1, 3, 5, 10, 20],
+                "KAVAUSD": [1, 3, 5, 10, 20],
+                "BANDUSD": [1, 3, 5, 10, 20],
+                "RLCUSD": [1, 3, 5, 10, 20],
+                "WAVESUSD": [1, 3, 5, 10, 20],
+                "MKRUSD": [1, 3, 5, 10, 20],
+                "SNXUSD": [1, 3, 5, 10, 20],
+                "DOTUSD": [1, 3, 5, 10, 20],
+                "DEFIUSD": [1, 3, 5, 10, 20],
+                "YFIUSD": [1, 3, 5, 10, 20],
+                "BALUSD": [1, 3, 5, 10, 20],
+                "CRVUSD": [1, 3, 5, 10, 20],
+                "TRBUSD": [1, 3, 5, 10, 20],
+                "YFIIUSD": [1, 3, 5, 10, 20],
+                "RUNEUSD": [1, 3, 5, 10, 20],
+                "SUSHIUSD": [1, 3, 5, 10, 20],
+                "SRMUSD": [1, 3, 5, 10, 20],
+                "BZRXUSD": [1, 3, 5, 10, 20],
+                "EGLDUSD": [1, 3, 5, 10, 20],
+                "SOLUSD": [1, 3, 5, 10, 20],
+                "ICXUSD": [1, 3, 5, 10, 20],
+                "STORJUSD": [1, 3, 5, 10, 20],
+                "BLZUSD": [1, 3, 5, 10, 20],
+                "UNIUSD": [1, 3, 5, 10, 20],
+                "AVAXUSD": [1, 3, 5, 10, 20],
+                "FTMUSD": [1, 3, 5, 10, 20],
+                "HNTUSD": [1, 3, 5, 10, 20],
+                "ENJUSD": [1, 3, 5, 10, 20],
+                "FLMUSD": [1, 3, 5, 10, 20],
+                "TOMOUSD": [1, 3, 5, 10, 20],
+                "RENUSD": [1, 3, 5, 10, 20],
+                "KSMUSD": [1, 3, 5, 10, 20],
+                "NEARUSD": [1, 3, 5, 10, 20],
+                "AAVEUSD": [1, 3, 5, 10, 20],
+                "FILUSD": [1, 3, 5, 10, 20],
+                "RSRUSD": [1, 3, 5, 10, 20],
+                "LRCUSD": [1, 3, 5, 10, 20],
+                "MATICUSD": [1, 3, 5, 10, 20],
+                "OCEANUSD": [1, 3, 5, 10, 20],
+                "CVCUSD": [1, 3, 5, 10, 20],
+                "BELUSD": [1, 3, 5, 10, 20],
+                "CTKUSD": [1, 3, 5, 10, 20],
+                "AXSUSD": [1, 3, 5, 10, 20],
+                "ALPHAUSD": [1, 3, 5, 10, 20],
+                "ZENUSD": [1, 3, 5, 10, 20],
+                "SKLUSD": [1, 3, 5, 10, 20],
+                "GRTUSD": [1, 3, 5, 10, 20],
+                "1INCHUSD": [1, 3, 5, 10, 20],
+                "BTCBUSD": [1, 3, 5, 10, 20],
+                "AKROUSD": [1, 3, 5, 10, 20],
+                "CHZUSD": [1, 3, 5, 10, 20],
+                "SANDUSD": [1, 3, 5, 10, 20],
+                "ANKRUSD": [1, 3, 5, 10, 20],
+                "LUNAUSD": [1, 3, 5, 10, 20],
+                "BTSUSD": [1, 3, 5, 10, 20],
+                "LITUSD": [1, 3, 5, 10, 20],
+                "UNFIUSD": [1, 3, 5, 10, 20],
+                "DODOUSD": [1, 3, 5, 10, 20],
+                "REEFUSD": [1, 3, 5, 10, 20],
+                "RVNUSD": [1, 3, 5, 10, 20],
+                "SFPUSD": [1, 3, 5, 10, 20],
+                "XEMUSD": [1, 3, 5, 10, 20],
+                "BTCSTUSD": [1, 3, 5, 10, 20],
+                "COTIUSD": [1, 3, 5, 10, 20],
+                "CHRUSD": [1, 3, 5, 10, 20],
+                "MANAUSD": [1, 3, 5, 10, 20],
+                "ALICEUSD": [1, 3, 5, 10, 20],
+                "HBARUSD": [1, 3, 5, 10, 20],
+                "ONEUSD": [1, 3, 5, 10, 20],
+                "LINAUSD": [1, 3, 5, 10, 20],
+                "STMXUSD": [1, 3, 5, 10, 20],
+                "DENTUSD": [1, 3, 5, 10, 20],
+                "CELRUSD": [1, 3, 5, 10, 20],
+                "HOTUSD": [1, 3, 5, 10, 20],
+                "MTLUSD": [1, 3, 5, 10, 20],
+                "OGNUSD": [1, 3, 5, 10, 20],
+                "BTTUSD": [1, 3, 5, 10, 20],
+                "NKNUSD": [1, 3, 5, 10, 20],
+                "SCUSD": [1, 3, 5, 10, 20],
+                "DGBUSD": [1, 3, 5, 10, 20]
+            },
+            "Future_size_precision": {
+                "BTCUSD": 3,
+                "ETHUSD": 3,
+                "BCHUSD": 3,
+                "XRPUSD": 1,
+                "EOSUSD": 1,
+                "LTCUSD": 3,
+                "TRXUSD": 0,
+                "ETCUSD": 2,
+                "LINKUSD": 2,
+                "XLMUSD": 0,
+                "ADAUSD": 0,
+                "XMRUSD": 3,
+                "DASHUSD": 3,
+                "ZECUSD": 3,
+                "XTZUSD": 1,
+                "BNBUSD": 2,
+                "ATOMUSD": 2,
+                "ONTUSD": 1,
+                "IOTAUSD": 1,
+                "BATUSD": 1,
+                "VETUSD": 0,
+                "NEOUSD": 2,
+                "QTUMUSD": 1,
+                "IOSTUSD": 0,
+                "THETAUSD": 1,
+                "ALGOUSD": 1,
+                "ZILUSD": 0,
+                "KNCUSD": 0,
+                "ZRXUSD": 1,
+                "COMPUSD": 3,
+                "OMGUSD": 1,
+                "DOGEUSD": 0,
+                "SXPUSD": 1,
+                "KAVAUSD": 1,
+                "BANDUSD": 1,
+                "RLCUSD": 1,
+                "WAVESUSD": 1,
+                "MKRUSD": 3,
+                "SNXUSD": 1,
+                "DOTUSD": 1,
+                "DEFIUSD": 3,
+                "YFIUSD": 3,
+                "BALUSD": 1,
+                "CRVUSD": 1,
+                "TRBUSD": 1,
+                "YFIIUSD": 3,
+                "RUNEUSD": 0,
+                "SUSHIUSD": 0,
+                "SRMUSD": 0,
+                "BZRXUSD": 0,
+                "EGLDUSD": 1,
+                "SOLUSD": 0,
+                "ICXUSD": 0,
+                "STORJUSD": 0,
+                "BLZUSD": 0,
+                "UNIUSD": 0,
+                "AVAXUSD": 0,
+                "FTMUSD": 0,
+                "HNTUSD": 0,
+                "ENJUSD": 0,
+                "FLMUSD": 0,
+                "TOMOUSD": 0,
+                "RENUSD": 0,
+                "KSMUSD": 1,
+                "NEARUSD": 0,
+                "AAVEUSD": 1,
+                "FILUSD": 1,
+                "RSRUSD": 0,
+                "LRCUSD": 0,
+                "MATICUSD": 0,
+                "OCEANUSD": 0,
+                "CVCUSD": 0,
+                "BELUSD": 0,
+                "CTKUSD": 0,
+                "AXSUSD": 0,
+                "ALPHAUSD": 0,
+                "ZENUSD": 1,
+                "SKLUSD": 0,
+                "GRTUSD": 0,
+                "1INCHUSD": 0,
+                "BTCBUSD": 3,
+                "AKROUSD": 0,
+                "CHZUSD": 0,
+                "SANDUSD": 0,
+                "ANKRUSD": 0,
+                "LUNAUSD": 0,
+                "BTSUSD": 0,
+                "LITUSD": 1,
+                "UNFIUSD": 1,
+                "DODOUSD": 1,
+                "REEFUSD": 0,
+                "RVNUSD": 0,
+                "SFPUSD": 0,
+                "XEMUSD": 0,
+                "BTCSTUSD": 1,
+                "COTIUSD": 0,
+                "CHRUSD": 0,
+                "MANAUSD": 0,
+                "ALICEUSD": 1,
+                "HBARUSD": 0,
+                "ONEUSD": 0,
+                "LINAUSD": 0,
+                "STMXUSD": 0,
+                "DENTUSD": 0,
+                "CELRUSD": 0,
+                "HOTUSD": 0,
+                "MTLUSD": 0,
+                "OGNUSD": 0,
+                "BTTUSD": 0,
+                "NKNUSD": 0,
+                "SCUSD": 0,
+                "DGBUSD": 0
+            },
+            "Future_multiple": {
+                "BTCUSD": 1,
+                "ETHUSD": 1,
+                "BCHUSD": 1,
+                "XRPUSD": 1,
+                "EOSUSD": 1,
+                "LTCUSD": 1,
+                "TRXUSD": 1,
+                "ETCUSD": 1,
+                "LINKUSD": 1,
+                "XLMUSD": 1,
+                "ADAUSD": 1,
+                "XMRUSD": 1,
+                "DASHUSD": 1,
+                "ZECUSD": 1,
+                "XTZUSD": 1,
+                "BNBUSD": 1,
+                "ATOMUSD": 1,
+                "ONTUSD": 1,
+                "IOTAUSD": 1,
+                "BATUSD": 1,
+                "VETUSD": 1,
+                "NEOUSD": 1,
+                "QTUMUSD": 1,
+                "IOSTUSD": 1,
+                "THETAUSD": 1,
+                "ALGOUSD": 1,
+                "ZILUSD": 1,
+                "KNCUSD": 1,
+                "ZRXUSD": 1,
+                "COMPUSD": 1,
+                "OMGUSD": 1,
+                "DOGEUSD": 1,
+                "SXPUSD": 1,
+                "KAVAUSD": 1,
+                "BANDUSD": 1,
+                "RLCUSD": 1,
+                "WAVESUSD": 1,
+                "MKRUSD": 1,
+                "SNXUSD": 1,
+                "DOTUSD": 1,
+                "DEFIUSD": 1,
+                "YFIUSD": 1,
+                "BALUSD": 1,
+                "CRVUSD": 1,
+                "TRBUSD": 1,
+                "YFIIUSD": 1,
+                "RUNEUSD": 1,
+                "SUSHIUSD": 1,
+                "SRMUSD": 1,
+                "BZRXUSD": 1,
+                "EGLDUSD": 1,
+                "SOLUSD": 1,
+                "ICXUSD": 1,
+                "STORJUSD": 1,
+                "BLZUSD": 1,
+                "UNIUSD": 1,
+                "AVAXUSD": 1,
+                "FTMUSD": 1,
+                "HNTUSD": 1,
+                "ENJUSD": 1,
+                "FLMUSD": 1,
+                "TOMOUSD": 1,
+                "RENUSD": 1,
+                "KSMUSD": 1,
+                "NEARUSD": 1,
+                "AAVEUSD": 1,
+                "FILUSD": 1,
+                "RSRUSD": 1,
+                "LRCUSD": 1,
+                "MATICUSD": 1,
+                "OCEANUSD": 1,
+                "CVCUSD": 1,
+                "BELUSD": 1,
+                "CTKUSD": 1,
+                "AXSUSD": 1,
+                "ALPHAUSD": 1,
+                "ZENUSD": 1,
+                "SKLUSD": 1,
+                "GRTUSD": 1,
+                "1INCHUSD": 1,
+                "BTCBUSD": 1,
+                "AKROUSD": 1,
+                "CHZUSD": 1,
+                "SANDUSD": 1,
+                "ANKRUSD": 1,
+                "LUNAUSD": 1,
+                "BTSUSD": 1,
+                "LITUSD": 1,
+                "UNFIUSD": 1,
+                "DODOUSD": 1,
+                "REEFUSD": 1,
+                "RVNUSD": 1,
+                "SFPUSD": 1,
+                "XEMUSD": 1,
+                "BTCSTUSD": 1,
+                "COTIUSD": 1,
+                "CHRUSD": 1,
+                "MANAUSD": 1,
+                "ALICEUSD": 1,
+                "HBARUSD": 1,
+                "ONEUSD": 1,
+                "LINAUSD": 1,
+                "STMXUSD": 1,
+                "DENTUSD": 1,
+                "CELRUSD": 1,
+                "HOTUSD": 1,
+                "MTLUSD": 1,
+                "OGNUSD": 1,
+                "BTTUSD": 1,
+                "NKNUSD": 1,
+                "SCUSD": 1,
+                "DGBUSD": 1
+            },
+            "Future_contract_types": ["perp"]
+        },
+        "BinanceFuture": {
+            "Fees": {},
+            "Future_contract_usd_face": {
+                "BTCUSD": 100,
+                "ETHUSD": 10
+            },
+            "Future_leverage_options": {
+                "BTCUSD": [5, 10],
+                "ETHUSD": [5, 10]
+            },
+            "Future_size_precision": {
+                "BTCUSD": 0,
+                "ETHUSD": 0
+            },
+            "Future_contract_types": ["quarter", "next_quarter", "perp"]
+        },
+        "Huobi": {
+            "Fees": {
+                "spot": 0.00028
+            }
+        },
+        "HuobiFuture": {
+            "Future_contract_usd_face": {
+                "BTCUSD": 100,
+                "ETHUSD": 10,
+                "LINKUSD": 10,
+                "DOTUSD": 10,
+                "EOSUSD": 10,
+                "TRXUSD": 10,
+                "ADAUSD": 10,
+                "LTCUSD": 10,
+                "BCHUSD": 10,
+                "XRPUSD": 10,
+                "BSVUSD": 10,
+                "ETCUSD": 10,
+                "FILUSD": 10
+            },
+            "Future_leverage_options": {
+                "BTCUSD": [1, 3, 5, 10, 20],
+                "ETHUSD": [1, 3, 5, 10, 20],
+                "LINKUSD": [1, 3, 5, 10, 20],
+                "DOTUSD": [1, 3, 5, 10, 20],
+                "EOSUSD": [1, 3, 5, 10, 20],
+                "TRXUSD": [1, 3, 5, 10, 20],
+                "ADAUSD": [1, 3, 5, 10, 20],
+                "LTCUSD": [1, 3, 5, 10, 20],
+                "BCHUSD": [1, 3, 5, 10, 20],
+                "XRPUSD": [1, 3, 5, 10, 20],
+                "BSVUSD": [1, 3, 5, 10, 20],
+                "ETCUSD": [1, 3, 5, 10, 20],
+                "FILUSD": [1, 3, 5, 10, 20]
+            },
+            "Fees": {
+                "BTCUSD_quarter": {
+                    "maker_fee": -0.00005,
+                    "taker_fee": 0.00025
+                },
+                "BTCUSD_next_week": {
+                    "maker_fee": -0.00005,
+                    "taker_fee": 0.00025
+                },
+                "BTCUSD_this_week": {
+                    "maker_fee": -0.00005,
+                    "taker_fee": 0.00025
+                }
+            },
+            "Future_contract_types": ["this_week", "next_week", "quarter", "next_quarter"]
+        },
+        "HuobiFuturePerp": {
+            "Future_contract_usd_face": {
+                "BTCUSD": 100,
+                "ETHUSD": 10,
+                "LINKUSD": 10,
+                "FILUSD": 10,
+                "UNIUSD": 10,
+                "ZECUSD": 10,
+                "ATOMUSD": 10,
+                "DASHUSD": 10,
+                "DOTUSD": 10,
+                "EOSUSD": 10,
+                "XLMUSD": 10,
+                "ADAUSD": 10,
+                "THETAUSD": 10,
+                "LTCUSD": 10,
+                "YFIUSD": 10,
+                "SUSHIUSD": 10,
+                "YFIIUSD": 10,
+                "AAVEUSD": 10,
+                "KSMUSD": 10,
+                "SNXUSD": 10,
+                "BANDUSD": 10,
+                "WAVESUSD": 10,
+                "JSTUSD": 10,
+                "BCHUSD": 10,
+                "BSVUSD": 10,
+                "XRPUSD": 10,
+                "ETCUSD": 10,
+                "TRXUSD": 10,
+                "QTUMUSD": 10,
+                "IOTAUSD": 10,
+                "NEOUSD": 10,
+                "ONTUSD": 10,
+                "XMRUSD": 10,
+                "XTZUSD": 10,
+                "ALGOUSD": 10,
+                "VETUSD": 10,
+                "ZRXUSD": 10,
+                "DOGEUSD": 10,
+                "RENUSD": 10,
+                "IOSTUSD": 10,
+                "BTMUSD": 10,
+                "COMPUSD": 10,
+                "OMGUSD": 10,
+                "ANTUSD": 10,
+                "CRVUSD": 10,
+                "RSRUSD": 10,
+                "STORJUSD": 10,
+                "TRBUSD": 10,
+                "SUNUSD": 10,
+                "NEARUSD": 10,
+                "GRTUSD": 10
+            },
+            "Future_leverage_options": {
+                "BTCUSD": [1, 3, 5, 10, 20],
+                "ETHUSD": [1, 3, 5, 10, 20],
+                "LINKUSD": [1, 3, 5, 10, 20],
+                "FILUSD": [1, 3, 5, 10, 20],
+                "UNIUSD": [1, 3, 5, 10, 20],
+                "ZECUSD": [1, 3, 5, 10, 20],
+                "ATOMUSD": [1, 3, 5, 10, 20],
+                "DASHUSD": [1, 3, 5, 10, 20],
+                "DOTUSD": [1, 3, 5, 10, 20],
+                "EOSUSD": [1, 3, 5, 10, 20],
+                "XLMUSD": [1, 3, 5, 10, 20],
+                "ADAUSD": [1, 3, 5, 10, 20],
+                "THETAUSD": [1, 3, 5, 10, 20],
+                "LTCUSD": [1, 3, 5, 10, 20],
+                "YFIUSD": [1, 3, 5, 10, 20],
+                "SUSHIUSD": [1, 3, 5, 10, 20],
+                "YFIIUSD": [1, 3, 5, 10, 20],
+                "AAVEUSD": [1, 3, 5, 10, 20],
+                "KSMUSD": [1, 3, 5, 10, 20],
+                "SNXUSD": [1, 3, 5, 10, 20],
+                "BANDUSD": [1, 3, 5, 10, 20],
+                "WAVESUSD": [1, 3, 5, 10, 20],
+                "JSTUSD": [1, 3, 5, 10, 20],
+                "BCHUSD": [1, 3, 5, 10, 20],
+                "BSVUSD": [1, 3, 5, 10, 20],
+                "XRPUSD": [1, 3, 5, 10, 20],
+                "ETCUSD": [1, 3, 5, 10, 20],
+                "TRXUSD": [1, 3, 5, 10, 20],
+                "QTUMUSD": [1, 3, 5, 10, 20],
+                "IOTAUSD": [1, 3, 5, 10, 20],
+                "NEOUSD": [1, 3, 5, 10, 20],
+                "ONTUSD": [1, 3, 5, 10, 20],
+                "XMRUSD": [1, 3, 5, 10, 20],
+                "XTZUSD": [1, 3, 5, 10, 20],
+                "ALGOUSD": [1, 3, 5, 10, 20],
+                "VETUSD": [1, 3, 5, 10, 20],
+                "ZRXUSD": [1, 3, 5, 10, 20],
+                "DOGEUSD": [1, 3, 5, 10, 20],
+                "RENUSD": [1, 3, 5, 10, 20],
+                "IOSTUSD": [1, 3, 5, 10, 20],
+                "BTMUSD": [1, 3, 5, 10, 20],
+                "COMPUSD": [1, 3, 5, 10, 20],
+                "OMGUSD": [1, 3, 5, 10, 20],
+                "ANTUSD": [1, 3, 5, 10, 20],
+                "CRVUSD": [1, 3, 5, 10, 20],
+                "RSRUSD": [1, 3, 5, 10, 20],
+                "STORJUSD": [1, 3, 5, 10, 20],
+                "TRBUSD": [1, 3, 5, 10, 20],
+                "SUNUSD": [1, 3, 5, 10, 20],
+                "NEARUSD": [1, 3, 5, 10, 20],
+                "GRTUSD": [1, 3, 5, 10, 20]
+            },
+            "Fees": {
+                "BTCUSD_quarter": {
+                    "maker_fee": -0.00025,
+                    "taker_fee": 0.00033
+                },
+                "BTCUSD_next_week": {
+                    "maker_fee": -0.00025,
+                    "taker_fee": 0.00033
+                },
+                "BTCUSD_this_week": {
+                    "maker_fee": -0.00025,
+                    "taker_fee": 0.00033
+                }
+            },
+            "Future_contract_types": ["perp"]
+        },
+        "HuobiPerpUSDT": {
+            "Future_leverage_options": {
+                "BTCUSDT": [1, 3, 5, 10, 20],
+                "ETHUSDT": [1, 3, 5, 10, 20],
+                "LTCUSDT": [1, 3, 5, 10, 20],
+                "DOGEUSDT": [1, 3, 5, 10, 20],
+                "XRPUSDT": [1, 3, 5, 10, 20],
+                "LINKUSDT": [1, 3, 5, 10, 20],
+                "TRXUSDT": [1, 3, 5, 10, 20],
+                "DOTUSDT": [1, 3, 5, 10, 20],
+                "ADAUSDT": [1, 3, 5, 10, 20],
+                "EOSUSDT": [1, 3, 5, 10, 20],
+                "BCHUSDT": [1, 3, 5, 10, 20],
+                "BSVUSDT": [1, 3, 5, 10, 20],
+                "YFIUSDT": [1, 3, 5, 10, 20],
+                "UNIUSDT": [1, 3, 5, 10, 20],
+                "FILUSDT": [1, 3, 5, 10, 20],
+                "YFIIUSDT": [1, 3, 5, 10, 20],
+                "SNXUSDT": [1, 3, 5, 10, 20],
+                "BNBUSDT": [1, 3, 5, 10, 20],
+                "ZECUSDT": [1, 3, 5, 10, 20],
+                "DASHUSDT": [1, 3, 5, 10, 20],
+                "ETCUSDT": [1, 3, 5, 10, 20],
+                "THETAUSDT": [1, 3, 5, 10, 20],
+                "KSMUSDT": [1, 3, 5, 10, 20],
+                "ATOMUSDT": [1, 3, 5, 10, 20],
+                "AAVEUSDT": [1, 3, 5, 10, 20],
+                "XLMUSDT": [1, 3, 5, 10, 20],
+                "SUSHIUSDT": [1, 3, 5, 10, 20],
+                "GRTUSDT": [1, 3, 5, 10, 20],
+                "1INCHUSDT": [1, 3, 5, 10, 20],
+                "CRVUSDT": [1, 3, 5, 10, 20],
+                "XTZUSDT": [1, 3, 5, 10, 20],
+                "ALGOUSDT": [1, 3, 5, 10, 20],
+                "NEOUSDT": [1, 3, 5, 10, 20],
+                "WAVESUSDT": [1, 3, 5, 10, 20],
+                "COMPUSDT": [1, 3, 5, 10, 20],
+                "ZILUSDT": [1, 3, 5, 10, 20],
+                "QTUMUSDT": [1, 3, 5, 10, 20],
+                "XMRUSDT": [1, 3, 5, 10, 20],
+                "KAVAUSDT": [1, 3, 5, 10, 20],
+                "RSRUSDT": [1, 3, 5, 10, 20],
+                "VETUSDT": [1, 3, 5, 10, 20],
+                "OMGUSDT": [1, 3, 5, 10, 20],
+                "XEMUSDT": [1, 3, 5, 10, 20],
+                "ONTUSDT": [1, 3, 5, 10, 20],
+                "AVAXUSDT": [1, 3, 5, 10, 20],
+                "ZKSUSDT": [1, 3, 5, 10, 20],
+                "MDXUSDT": [1, 3, 5, 10, 20],
+                "MATICUSDT": [1, 3, 5, 10, 20],
+                "BANDUSDT": [1, 3, 5, 10, 20],
+                "LRCUSDT": [1, 3, 5, 10, 20],
+                "SOLUSDT": [1, 3, 5, 10, 20],
+                "IOTAUSDT": [1, 3, 5, 10, 20],
+                "MKRUSDT": [1, 3, 5, 10, 20],
+                "IOSTUSDT": [1, 3, 5, 10, 20],
+                "RENUSDT": [1, 3, 5, 10, 20],
+                "CVCUSDT": [1, 3, 5, 10, 20],
+                "BATUSDT": [1, 3, 5, 10, 20],
+                "KNCUSDT": [1, 3, 5, 10, 20],
+                "NEARUSDT": [1, 3, 5, 10, 20],
+                "AKROUSDT": [1, 3, 5, 10, 20],
+                "BALUSDT": [1, 3, 5, 10, 20],
+                "MANAUSDT": [1, 3, 5, 10, 20],
+                "SANDUSDT": [1, 3, 5, 10, 20],
+                "ZENUSDT": [1, 3, 5, 10, 20],
+                "BAGSUSDT": [1, 3, 5, 10, 20],
+                "MASSUSDT": [1, 3, 5, 10, 20],
+                "BTSUSDT": [1, 3, 5, 10, 20],
+                "BNTUSDT": [1, 3, 5, 10, 20],
+                "LUNAUSDT": [1, 3, 5, 10, 20],
+                "FRONTUSDT": [1, 3, 5, 10, 20],
+                "WOOUSDT": [1, 3, 5, 10, 20],
+                "PHAUSDT": [1, 3, 5, 10, 20],
+                "RVNUSDT": [1, 3, 5, 10, 20],
+                "CHZUSDT": [1, 3, 5, 10, 20],
+                "UMAUSDT": [1, 3, 5, 10, 20],
+                "SKLUSDT": [1, 3, 5, 10, 20],
+                "BLZUSDT": [1, 3, 5, 10, 20],
+                "ENJUSDT": [1, 3, 5, 10, 20],
+                "REEFUSDT": [1, 3, 5, 10, 20],
+                "ONEUSDT": [1, 3, 5, 10, 20],
+                "HBARUSDT": [1, 3, 5, 10, 20],
+                "STORJUSDT": [1, 3, 5, 10, 20],
+                "CROUSDT": [1, 3, 5, 10, 20],
+                "LINAUSDT": [1, 3, 5, 10, 20],
+                "ANKRUSDT": [1, 3, 5, 10, 20],
+                "RNDRUSDT": [1, 3, 5, 10, 20],
+                "OGNUSDT": [1, 3, 5, 10, 20],
+                "BTTUSDT": [1, 3, 5, 10, 20],
+                "MASKUSDT": [1, 3, 5, 10, 20]
+            },
+            "Future_multiple": {
+                "BTCUSDT": 0.001,
+                "ETHUSDT": 0.01,
+                "LTCUSDT": 0.1,
+                "DOGEUSDT": 100,
+                "XRPUSDT": 10,
+                "LINKUSDT": 0.1,
+                "TRXUSDT": 100,
+                "DOTUSDT": 1,
+                "ADAUSDT": 10,
+                "EOSUSDT": 1,
+                "BCHUSDT": 0.01,
+                "BSVUSDT": 0.01,
+                "YFIUSDT": 0.0001,
+                "UNIUSDT": 1,
+                "FILUSDT": 0.1,
+                "YFIIUSDT": 0.001,
+                "SNXUSDT": 1,
+                "BNBUSDT": 0.1,
+                "ZECUSDT": 0.1,
+                "DASHUSDT": 0.1,
+                "ETCUSDT": 1,
+                "THETAUSDT": 10,
+                "KSMUSDT": 0.1,
+                "ATOMUSDT": 1,
+                "AAVEUSDT": 0.1,
+                "XLMUSDT": 10,
+                "SUSHIUSDT": 1,
+                "GRTUSDT": 10,
+                "1INCHUSDT": 1,
+                "CRVUSDT": 1,
+                "XTZUSDT": 1,
+                "ALGOUSDT": 10,
+                "NEOUSDT": 0.1,
+                "WAVESUSDT": 1,
+                "COMPUSDT": 0.01,
+                "ZILUSDT": 100,
+                "QTUMUSDT": 1,
+                "XMRUSDT": 0.01,
+                "KAVAUSDT": 1,
+                "RSRUSDT": 100,
+                "VETUSDT": 100,
+                "OMGUSDT": 1,
+                "XEMUSDT": 10,
+                "ONTUSDT": 10,
+                "AVAXUSDT": 1,
+                "ZKSUSDT": 0.1,
+                "MDXUSDT": 1,
+                "MATICUSDT": 100,
+                "BANDUSDT": 1,
+                "LRCUSDT": 10,
+                "SOLUSDT": 1,
+                "IOTAUSDT": 10,
+                "MKRUSDT": 0.001,
+                "IOSTUSDT": 100,
+                "RENUSDT": 10,
+                "CVCUSDT": 10,
+                "BATUSDT": 10,
+                "KNCUSDT": 1,
+                "NEARUSDT": 1,
+                "AKROUSDT": 100,
+                "BALUSDT": 0.1,
+                "MANAUSDT": 10,
+                "SANDUSDT": 10,
+                "ZENUSDT": 0.1,
+                "BAGSUSDT": 0.01,
+                "MASSUSDT": 1,
+                "BTSUSDT": 100,
+                "BNTUSDT": 1,
+                "LUNAUSDT": 1,
+                "FRONTUSDT": 1,
+                "WOOUSDT": 10,
+                "PHAUSDT": 1,
+                "RVNUSDT": 10,
+                "CHZUSDT": 10,
+                "UMAUSDT": 0.1,
+                "SKLUSDT": 10,
+                "BLZUSDT": 10,
+                "ENJUSDT": 1,
+                "REEFUSDT": 100,
+                "ONEUSDT": 100,
+                "HBARUSDT": 10,
+                "STORJUSDT": 1,
+                "CROUSDT": 10,
+                "LINAUSDT": 10,
+                "ANKRUSDT": 10,
+                "RNDRUSDT": 1,
+                "OGNUSDT": 1,
+                "BTTUSDT": 1000,
+                "MASKUSDT": 0.1
+            },
+            "Fees": {
+                "BTCUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "ETHUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "LTCUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "DOGEUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "XRPUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "LINKUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "TRXUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "DOTUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "ADAUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "EOSUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "BCHUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "BSVUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "YFIUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "UNIUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "FILUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "YFIIUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "SNXUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "BNBUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "ZECUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "DASHUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "ETCUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "THETAUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "KSMUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "ATOMUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "AAVEUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "XLMUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "SUSHIUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "GRTUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "1INCHUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "CRVUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "XTZUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "ALGOUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "NEOUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "WAVESUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "COMPUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "ZILUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "QTUMUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "XMRUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "KAVAUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "RSRUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "VETUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "OMGUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "XEMUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "ONTUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "AVAXUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "ZKSUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "MDXUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "MATICUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "BANDUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "LRCUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "SOLUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "IOTAUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "MKRUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "IOSTUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "RENUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "CVCUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "BATUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "KNCUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "NEARUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "AKROUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "BALUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "MANAUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "SANDUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "ZENUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "BAGSUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "MASSUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "BTSUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "BNTUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "LUNAUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "FRONTUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "WOOUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "PHAUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "RVNUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "CHZUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "UMAUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "SKLUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "BLZUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "ENJUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "REEFUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "ONEUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "HBARUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "STORJUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "CROUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "LINAUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "ANKRUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "RNDRUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "OGNUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "BTTUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "MASKUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                }
+            },
+            "Future_contract_types": ["perp"]
+        },
+        "HuobiPerpUSDTCross": {
+            "Future_leverage_options": {
+                "BTCUSDT": [1, 3, 5, 10, 20],
+                "ETHUSDT": [1, 3, 5, 10, 20],
+                "LTCUSDT": [1, 3, 5, 10, 20],
+                "DOGEUSDT": [1, 3, 5, 10, 20],
+                "XRPUSDT": [1, 3, 5, 10, 20],
+                "LINKUSDT": [1, 3, 5, 10, 20],
+                "TRXUSDT": [1, 3, 5, 10, 20],
+                "DOTUSDT": [1, 3, 5, 10, 20],
+                "ADAUSDT": [1, 3, 5, 10, 20],
+                "EOSUSDT": [1, 3, 5, 10, 20],
+                "BCHUSDT": [1, 3, 5, 10, 20],
+                "BSVUSDT": [1, 3, 5, 10, 20],
+                "YFIUSDT": [1, 3, 5, 10, 20],
+                "UNIUSDT": [1, 3, 5, 10, 20],
+                "FILUSDT": [1, 3, 5, 10, 20],
+                "YFIIUSDT": [1, 3, 5, 10, 20],
+                "SNXUSDT": [1, 3, 5, 10, 20],
+                "BNBUSDT": [1, 3, 5, 10, 20],
+                "ZECUSDT": [1, 3, 5, 10, 20],
+                "DASHUSDT": [1, 3, 5, 10, 20],
+                "ETCUSDT": [1, 3, 5, 10, 20],
+                "THETAUSDT": [1, 3, 5, 10, 20],
+                "KSMUSDT": [1, 3, 5, 10, 20],
+                "ATOMUSDT": [1, 3, 5, 10, 20],
+                "AAVEUSDT": [1, 3, 5, 10, 20],
+                "XLMUSDT": [1, 3, 5, 10, 20],
+                "SUSHIUSDT": [1, 3, 5, 10, 20],
+                "GRTUSDT": [1, 3, 5, 10, 20],
+                "1INCHUSDT": [1, 3, 5, 10, 20],
+                "CRVUSDT": [1, 3, 5, 10, 20],
+                "XTZUSDT": [1, 3, 5, 10, 20],
+                "ALGOUSDT": [1, 3, 5, 10, 20],
+                "NEOUSDT": [1, 3, 5, 10, 20],
+                "WAVESUSDT": [1, 3, 5, 10, 20],
+                "COMPUSDT": [1, 3, 5, 10, 20],
+                "ZILUSDT": [1, 3, 5, 10, 20],
+                "QTUMUSDT": [1, 3, 5, 10, 20],
+                "XMRUSDT": [1, 3, 5, 10, 20],
+                "OMGUSDT": [1, 3, 5, 10, 20],
+                "ONTUSDT": [1, 3, 5, 10, 20],
+                "AVAXUSDT": [1, 3, 5, 10, 20],
+                "ZKSUSDT": [1, 3, 5, 10, 20],
+                "MDXUSDT": [1, 3, 5, 10, 20],
+                "MATICUSDT": [1, 3, 5, 10, 20]
+            },
+            "Future_multiple": {
+                "BTCUSDT": 0.001,
+                "ETHUSDT": 0.01,
+                "LTCUSDT": 0.1,
+                "DOGEUSDT": 100,
+                "XRPUSDT": 10,
+                "LINKUSDT": 0.1,
+                "TRXUSDT": 100,
+                "DOTUSDT": 1,
+                "ADAUSDT": 10,
+                "EOSUSDT": 1,
+                "BCHUSDT": 0.01,
+                "BSVUSDT": 0.01,
+                "YFIUSDT": 0.0001,
+                "UNIUSDT": 1,
+                "FILUSDT": 0.1,
+                "YFIIUSDT": 0.001,
+                "SNXUSDT": 1,
+                "BNBUSDT": 0.1,
+                "ZECUSDT": 0.1,
+                "DASHUSDT": 0.1,
+                "ETCUSDT": 1,
+                "THETAUSDT": 10,
+                "KSMUSDT": 0.1,
+                "ATOMUSDT": 1,
+                "AAVEUSDT": 0.1,
+                "XLMUSDT": 10,
+                "SUSHIUSDT": 1,
+                "GRTUSDT": 10,
+                "1INCHUSDT": 1,
+                "CRVUSDT": 1,
+                "XTZUSDT": 1,
+                "ALGOUSDT": 10,
+                "NEOUSDT": 0.1,
+                "WAVESUSDT": 1,
+                "COMPUSDT": 0.01,
+                "ZILUSDT": 100,
+                "QTUMUSDT": 1,
+                "XMRUSDT": 0.01,
+                "OMGUSDT": 1,
+                "ONTUSDT": 10,
+                "AVAXUSDT": 1,
+                "ZKSUSDT": 0.1,
+                "MDXUSDT": 1,
+                "MATICUSDT": 100
+            },
+            "Fees": {
+                "BTCUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "ETHUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "LTCUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "DOGEUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "XRPUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "LINKUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "TRXUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "DOTUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "ADAUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "EOSUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "BCHUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "BSVUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "YFIUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "UNIUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "FILUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "YFIIUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "SNXUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "BNBUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "ZECUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "DASHUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "ETCUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "THETAUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "KSMUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "ATOMUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "AAVEUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "XLMUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "SUSHIUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "GRTUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "1INCHUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "CRVUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "XTZUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "ALGOUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "NEOUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "WAVESUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "COMPUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "ZILUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "QTUMUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "XMRUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "OMGUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "ONTUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "AVAXUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "ZKSUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "MDXUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "MATICUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                }
+            },
+            "Future_contract_types": ["perp"]
+        },
+        "OKcoin": {
+            "Future_contract_usd_face": {
+                "ADAUSD": 10,
+                "LINKUSD": 10,
+                "XRPUSD": 10,
+                "FILUSD": 10,
+                "BTCUSD": 100,
+                "LTCUSD": 10,
+                "ETHUSD": 10,
+                "BCHUSD": 10,
+                "ETCUSD": 10,
+                "BSVUSD": 10,
+                "DOTUSD": 10,
+                "TRXUSD": 10,
+                "EOSUSD": 10
+            },
+            "Future_leverage_options": {
+                "ADAUSD": [1, 3, 5, 10, 20],
+                "LINKUSD": [1, 3, 5, 10, 20],
+                "XRPUSD": [1, 3, 5, 10, 20],
+                "FILUSD": [1, 3, 5, 10, 20],
+                "BTCUSD": [1, 3, 5, 10, 20],
+                "LTCUSD": [1, 3, 5, 10, 20],
+                "ETHUSD": [1, 3, 5, 10, 20],
+                "BCHUSD": [1, 3, 5, 10, 20],
+                "ETCUSD": [1, 3, 5, 10, 20],
+                "BSVUSD": [1, 3, 5, 10, 20],
+                "DOTUSD": [1, 3, 5, 10, 20],
+                "TRXUSD": [1, 3, 5, 10, 20],
+                "EOSUSD": [1, 3, 5, 10, 20]
+            },
+            "Future_contract_types": ["this_week", "next_week", "quarter", "next_quarter"],
+            "Fees": {
+                "BTCUSD_quarter": {
+                    "maker_fee": 0.0002,
+                    "taker_fee": 0.0003
+                },
+                "BTCUSD_next_week": {
+                    "maker_fee": 0.0002,
+                    "taker_fee": 0.0003
+                },
+                "BTCUSD_this_week": {
+                    "maker_fee": 0.0002,
+                    "taker_fee": 0.0003
+                }
+            }
+        },
+        "NewOKcoin": {
+            "Future_contract_usd_face": {
+                "NEOUSD": 10,
+                "LINKUSD": 10,
+                "DASHUSD": 10,
+                "ADAUSD": 10,
+                "ZECUSD": 10,
+                "XTZUSD": 10,
+                "ONTUSD": 10,
+                "ATOMUSD": 10,
+                "QTUMUSD": 10,
+                "XLMUSD": 10,
+                "XMRUSD": 10,
+                "IOTAUSD": 10,
+                "ALGOUSD": 10,
+                "IOSTUSD": 10,
+                "THETAUSD": 10,
+                "KNCUSD": 10,
+                "DOGEUSD": 10,
+                "KSMUSD": 10,
+                "BTCUSD": 100,
+                "LTCUSD": 10,
+                "ETHUSD": 10,
+                "TRXUSD": 10,
+                "BCHUSD": 10,
+                "BSVUSD": 10,
+                "EOSUSD": 10,
+                "XRPUSD": 10,
+                "ETCUSD": 10,
+                "YFIUSD": 10,
+                "YFIIUSD": 10,
+                "DOTUSD": 10,
+                "SUSHIUSD": 10,
+                "CRVUSD": 10,
+                "BTTUSD": 10,
+                "SUNUSD": 10,
+                "UNIUSD": 10,
+                "FILUSD": 10,
+                "GRTUSD": 10,
+                "1INCHUSD": 10
+            },
+            "Future_leverage_options": {
+                "NEOUSD": [1, 3, 5, 10, 20],
+                "LINKUSD": [1, 3, 5, 10, 20],
+                "DASHUSD": [1, 3, 5, 10, 20],
+                "ADAUSD": [1, 3, 5, 10, 20],
+                "ZECUSD": [1, 3, 5, 10, 20],
+                "XTZUSD": [1, 3, 5, 10, 20],
+                "ONTUSD": [1, 3, 5, 10, 20],
+                "ATOMUSD": [1, 3, 5, 10, 20],
+                "QTUMUSD": [1, 3, 5, 10, 20],
+                "XLMUSD": [1, 3, 5, 10, 20],
+                "XMRUSD": [1, 3, 5, 10, 20],
+                "IOTAUSD": [1, 3, 5, 10, 20],
+                "ALGOUSD": [1, 3, 5, 10, 20],
+                "IOSTUSD": [1, 3, 5, 10, 20],
+                "THETAUSD": [1, 3, 5, 10, 20],
+                "KNCUSD": [1, 3, 5, 10, 20],
+                "DOGEUSD": [1, 3, 5, 10, 20],
+                "KSMUSD": [1, 3, 5, 10, 20],
+                "BTCUSD": [1, 3, 5, 10, 20],
+                "LTCUSD": [1, 3, 5, 10, 20],
+                "ETHUSD": [1, 3, 5, 10, 20],
+                "TRXUSD": [1, 3, 5, 10, 20],
+                "BCHUSD": [1, 3, 5, 10, 20],
+                "BSVUSD": [1, 3, 5, 10, 20],
+                "EOSUSD": [1, 3, 5, 10, 20],
+                "XRPUSD": [1, 3, 5, 10, 20],
+                "ETCUSD": [1, 3, 5, 10, 20],
+                "YFIUSD": [1, 3, 5, 10, 20],
+                "YFIIUSD": [1, 3, 5, 10, 20],
+                "DOTUSD": [1, 3, 5, 10, 20],
+                "SUSHIUSD": [1, 3, 5, 10, 20],
+                "CRVUSD": [1, 3, 5, 10, 20],
+                "BTTUSD": [1, 3, 5, 10, 20],
+                "SUNUSD": [1, 3, 5, 10, 20],
+                "UNIUSD": [1, 3, 5, 10, 20],
+                "FILUSD": [1, 3, 5, 10, 20],
+                "GRTUSD": [1, 3, 5, 10, 20],
+                "1INCHUSD": [1, 3, 5, 10, 20]
+            },
+            "Future_contract_types": ["perp"],
+            "Fees": {
+                "BTCUSD_perp": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "BCHUSD_perp": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "BSVUSD_perp": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "EOSUSD_perp": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                }
+            }
+        },
+        "NewOKcoinUSDT": {
+            "Future_leverage_options": {
+                "OMGUSDT": [1, 3, 5, 10, 20],
+                "WAVESUSDT": [1, 3, 5, 10, 20],
+                "BATUSDT": [1, 3, 5, 10, 20],
+                "NEOUSDT": [1, 3, 5, 10, 20],
+                "LINKUSDT": [1, 3, 5, 10, 20],
+                "DASHUSDT": [1, 3, 5, 10, 20],
+                "ADAUSDT": [1, 3, 5, 10, 20],
+                "ZECUSDT": [1, 3, 5, 10, 20],
+                "XTZUSDT": [1, 3, 5, 10, 20],
+                "ONTUSDT": [1, 3, 5, 10, 20],
+                "ATOMUSDT": [1, 3, 5, 10, 20],
+                "QTUMUSDT": [1, 3, 5, 10, 20],
+                "XLMUSDT": [1, 3, 5, 10, 20],
+                "XMRUSDT": [1, 3, 5, 10, 20],
+                "IOTAUSDT": [1, 3, 5, 10, 20],
+                "ALGOUSDT": [1, 3, 5, 10, 20],
+                "IOSTUSDT": [1, 3, 5, 10, 20],
+                "THETAUSDT": [1, 3, 5, 10, 20],
+                "KNCUSDT": [1, 3, 5, 10, 20],
+                "COMPUSDT": [1, 3, 5, 10, 20],
+                "DOGEUSDT": [1, 3, 5, 10, 20],
+                "FILUSDT": [1, 3, 5, 10, 20],
+                "SRMUSDT": [1, 3, 5, 10, 20],
+                "SNXUSDT": [1, 3, 5, 10, 20],
+                "ANTUSDT": [1, 3, 5, 10, 20],
+                "ZRXUSDT": [1, 3, 5, 10, 20],
+                "MKRUSDT": [1, 3, 5, 10, 20],
+                "DOTUSDT": [1, 3, 5, 10, 20],
+                "JSTUSDT": [1, 3, 5, 10, 20],
+                "RENUSDT": [1, 3, 5, 10, 20],
+                "KSMUSDT": [1, 3, 5, 10, 20],
+                "TRBUSDT": [1, 3, 5, 10, 20],
+                "RSRUSDT": [1, 3, 5, 10, 20],
+                "BALUSDT": [1, 3, 5, 10, 20],
+                "STORJUSDT": [1, 3, 5, 10, 20],
+                "BTMUSDT": [1, 3, 5, 10, 20],
+                "LRCUSDT": [1, 3, 5, 10, 20],
+                "BTCUSDT": [1, 3, 5, 10, 20],
+                "LTCUSDT": [1, 3, 5, 10, 20],
+                "ETHUSDT": [1, 3, 5, 10, 20],
+                "TRXUSDT": [1, 3, 5, 10, 20],
+                "BCHUSDT": [1, 3, 5, 10, 20],
+                "BSVUSDT": [1, 3, 5, 10, 20],
+                "EOSUSDT": [1, 3, 5, 10, 20],
+                "XRPUSDT": [1, 3, 5, 10, 20],
+                "ETCUSDT": [1, 3, 5, 10, 20],
+                "YFIUSDT": [1, 3, 5, 10, 20],
+                "YFIIUSDT": [1, 3, 5, 10, 20],
+                "SUSHIUSDT": [1, 3, 5, 10, 20],
+                "CRVUSDT": [1, 3, 5, 10, 20],
+                "UMAUSDT": [1, 3, 5, 10, 20],
+                "BANDUSDT": [1, 3, 5, 10, 20],
+                "WNXMUSDT": [1, 3, 5, 10, 20],
+                "ZILUSDT": [1, 3, 5, 10, 20],
+                "BTTUSDT": [1, 3, 5, 10, 20],
+                "SWRVUSDT": [1, 3, 5, 10, 20],
+                "SUNUSDT": [1, 3, 5, 10, 20],
+                "UNIUSDT": [1, 3, 5, 10, 20],
+                "AVAXUSDT": [1, 3, 5, 10, 20],
+                "FLMUSDT": [1, 3, 5, 10, 20],
+                "ZENUSDT": [1, 3, 5, 10, 20],
+                "AAVEUSDT": [1, 3, 5, 10, 20],
+                "CVCUSDT": [1, 3, 5, 10, 20],
+                "GRTUSDT": [1, 3, 5, 10, 20],
+                "NEARUSDT": [1, 3, 5, 10, 20],
+                "EGLDUSDT": [1, 3, 5, 10, 20],
+                "BNTUSDT": [1, 3, 5, 10, 20],
+                "1INCHUSDT": [1, 3, 5, 10, 20],
+                "SOLUSDT": [1, 3, 5, 10, 20],
+                "LONUSDT": [1, 3, 5, 10, 20],
+                "BADGERUSDT": [1, 3, 5, 10, 20],
+                "MIRUSDT": [1, 3, 5, 10, 20],
+                "TORNUSDT": [1, 3, 5, 10, 20],
+                "MASKUSDT": [1, 3, 5, 10, 20],
+                "CFXUSDT": [1, 3, 5, 10, 20],
+                "CHZUSDT": [1, 3, 5, 10, 20],
+                "MANAUSDT": [1, 3, 5, 10, 20],
+                "ALPHAUSDT": [1, 3, 5, 10, 20],
+                "LUNAUSDT": [1, 3, 5, 10, 20],
+                "FTMUSDT": [1, 3, 5, 10, 20],
+                "CONVUSDT": [1, 3, 5, 10, 20],
+                "DORAUSDT": [1, 3, 5, 10, 20],
+                "ENJUSDT": [1, 3, 5, 10, 20],
+                "SANDUSDT": [1, 3, 5, 10, 20],
+                "PERPUSDT": [1, 3, 5, 10, 20],
+                "ANCUSDT": [1, 3, 5, 10, 20],
+                "SCUSDT": [1, 3, 5, 10, 20],
+                "CROUSDT": [1, 3, 5, 10, 20],
+                "XEMUSDT": [1, 3, 5, 10, 20]
+            },
+            "Future_multiple": {
+                "OMGUSDT": 1,
+                "WAVESUSDT": 1,
+                "BATUSDT": 10,
+                "NEOUSDT": 1,
+                "LINKUSDT": 1,
+                "DASHUSDT": 0.1,
+                "ADAUSDT": 100,
+                "ZECUSDT": 0.1,
+                "XTZUSDT": 1,
+                "ONTUSDT": 10,
+                "ATOMUSDT": 1,
+                "QTUMUSDT": 1,
+                "XLMUSDT": 100,
+                "XMRUSDT": 0.1,
+                "IOTAUSDT": 10,
+                "ALGOUSDT": 10,
+                "IOSTUSDT": 1000,
+                "THETAUSDT": 10,
+                "KNCUSDT": 1,
+                "COMPUSDT": 0.1,
+                "DOGEUSDT": 1000,
+                "FILUSDT": 0.1,
+                "SRMUSDT": 1,
+                "SNXUSDT": 1,
+                "ANTUSDT": 1,
+                "ZRXUSDT": 10,
+                "MKRUSDT": 0.01,
+                "DOTUSDT": 1,
+                "JSTUSDT": 100,
+                "RENUSDT": 10,
+                "KSMUSDT": 0.1,
+                "TRBUSDT": 0.1,
+                "RSRUSDT": 100,
+                "BALUSDT": 0.1,
+                "STORJUSDT": 10,
+                "BTMUSDT": 100,
+                "LRCUSDT": 10,
+                "BTCUSDT": 0.01,
+                "LTCUSDT": 1,
+                "ETHUSDT": 0.1,
+                "TRXUSDT": 1000,
+                "BCHUSDT": 0.1,
+                "BSVUSDT": 1,
+                "EOSUSDT": 10,
+                "XRPUSDT": 100,
+                "ETCUSDT": 10,
+                "YFIUSDT": 0.0001,
+                "YFIIUSDT": 0.001,
+                "SUSHIUSDT": 1,
+                "CRVUSDT": 1,
+                "UMAUSDT": 0.1,
+                "BANDUSDT": 1,
+                "WNXMUSDT": 0.1,
+                "ZILUSDT": 100,
+                "BTTUSDT": 10000,
+                "SWRVUSDT": 1,
+                "SUNUSDT": 0.1,
+                "UNIUSDT": 1,
+                "AVAXUSDT": 1,
+                "FLMUSDT": 10,
+                "ZENUSDT": 1,
+                "AAVEUSDT": 0.1,
+                "CVCUSDT": 100,
+                "GRTUSDT": 10,
+                "NEARUSDT": 10,
+                "EGLDUSDT": 0.1,
+                "BNTUSDT": 10,
+                "1INCHUSDT": 1,
+                "SOLUSDT": 1,
+                "LONUSDT": 1,
+                "BADGERUSDT": 0.1,
+                "MIRUSDT": 1,
+                "TORNUSDT": 0.01,
+                "MASKUSDT": 1,
+                "CFXUSDT": 10,
+                "CHZUSDT": 10,
+                "MANAUSDT": 10,
+                "ALPHAUSDT": 1,
+                "LUNAUSDT": 0.1,
+                "FTMUSDT": 10,
+                "CONVUSDT": 10,
+                "DORAUSDT": 0.1,
+                "ENJUSDT": 1,
+                "SANDUSDT": 10,
+                "PERPUSDT": 1,
+                "ANCUSDT": 1,
+                "SCUSDT": 100,
+                "CROUSDT": 10,
+                "XEMUSDT": 10
+            },
+            "Fees": {
+                "BTCUSDT_perp": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "BCHUSDT_perp": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "BSVUSDT_perp": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "ETHUSDT_perp": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "ETCUSDT_perp": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "XRPUSDT_perp": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "LTCUSDT_perp": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "TRXUSDT_perp": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "EOSUSDT_perp": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "ADAUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "ALGOUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "ATOMUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "COMPUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "DASHUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "DOGEUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "DOTUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "FILUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "IOTAUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "IOSTUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "LINKUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "KNCUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "NEOUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "ONTUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "QTUMUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "THETAUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "XLMUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "XMRUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "XTZUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                },
+                "ZECUSDT": {
+                    "maker_fee": 0,
+                    "taker_fee": 0.0003
+                }
+            },
+            "Future_contract_types": ["perp"]
+        },
+        "BitMEX": {
+            "Future_contract_usd_face": {
+                "BTCUSD": 1
+            },
+            "Future_leverage_options": {
+                "BTCUSD": [100],
+                "ETHUSD": [50],
+                "XRPUSD": [50],
+                "ETHBTC": [10],
+                "EOSBTC": [10],
+                "XRPBTC": [10],
+                "ADABTC": [10],
+                "TRXBTC": [10],
+                "LTCBTC": [10],
+                "BCHBTC": [10]
+            },
+            "Order_requirements": {
+                "BTCUSD": {
+                    "price_tick": 0.5
+                },
+                "ETHUSD": {
+                    "price_tick": 0.05
+                }
+            },
+            "Future_multiple": {
+                "ETHUSD": 0.000001,
+                "XRPUSD": 0.0002,
+                "BCHBTC": 1,
+                "ETHBTC": 1,
+                "EOSBTC": 1,
+                "XRPBTC": 1,
+                "ADABTC": 1,
+                "TRXBTC": 1,
+                "LTCBTC": 1
+            },
+            "Future_contract_types": ["quarter", "next_quarter", "perp"]
+        },
+        "Bybit": {
+            "Future_contract_usd_face": {
+                "BTCUSD": 1,
+                "ETHUSD": 1,
+                "EOSUSD": 1,
+                "XRPUSD": 1
+            },
+            "Order_requirements": {
+                "BTCUSD": {
+                    "price_tick": 0.5
+                },
+                "ETHUSD": {
+                    "price_tick": 0.05
+                },
+                "EOSUSD": {
+                    "price_tick": 0.001
+                },
+                "XRPUSD": {
+                    "price_tick": 0.0001
+                }
+            },
+            "Future_leverage_options": {
+                "BTCUSD": [100],
+                "ETHUSD": [50],
+                "EOSUSD": [50],
+                "XRPUSD": [50]
+            },
+            "Future_contract_types": ["perp"]
+        },
+        "Bitflyer": {
+            "Future_multiple": {
+                "BTCJPY": 1
+            },
+            "Future_leverage_options": {
+                "BTCJPY": []
+            },
+            "Future_size_precision": {
+                "BTCJPY": 8
+            },
+            "Future_contract_types": ["lightening_fx"]
+        },
+        "Deribit": {
+            "Future_contract_usd_face": {
+                "BTCUSD": 10,
+                "ETHUSD": 1
+            },
+            "Future_leverage_options": {
+                "BTCUSD": [100],
+                "ETHUSD": [50]
+            },
+            "Fees": {
+                "future": 0.00045
+            },
+            "Order_requirements": {
+                "BTCUSD": {
+                    "price_tick": 0.5
+                },
+                "ETHUSD": {
+                    "price_tick": 0.05
+                }
+            },
+            "Future_contract_types": ["quarter", "next_quarter", "next_two_quarter", "perp"]
+        },
+        "Bitso": {
+            "Fees": {
+                "spot": 0.0015
+            }
+        },
+        "Luno": {
+            "Fees": {
+                "spot": 0.005
+            },
+            "Order_requirements": {
+                "BTCZAR": {
+                    "price_tick": 1
+                }
+            }
+        },
+        "Ig": {
+            "Future_multiple": {
+                "USDKRW": 100,
+                "USDIDR": 1,
+                "USDJPY": 10000,
+                "USDMXN": 10000,
+                "USDZAR": 10000,
+                "USDCAD": 10000,
+                "USDBRL": 10000,
+                "USDPLN": 10000,
+                "USDTRY": 10000,
+                "AUDUSD": 10000,
+                "EURUSD": 10000
+            },
+            "Future_leverage_options": {
+                "USDKRW": [10],
+                "USDIDR": [10],
+                "USDJPY": [10],
+                "USDMXN": [10],
+                "USDZAR": [10],
+                "USDTRY": [10],
+                "USDCAD": [10],
+                "USDBRL": [10],
+                "USDPLN": [10],
+                "AUDUSD": [10],
+                "EURUSD": [10]
+            },
+            "Future_contract_usd_face": {},
+            "Future_contract_types": ["forex"]
+        },
+        "Gaea": {
+            "Future_contract_usd_face": {
+                "BTCUSD": 1,
+                "ETHUSD": 1,
+                "XRPUSD": 1,
+                "LTCUSD": 1,
+                "ETCUSD": 1,
+                "EOSUSD": 1
+            },
+            "Future_leverage_options": {
+                "BTCUSD": [10],
+                "ETHUSD": [10],
+                "XRPUSD": [10],
+                "LTCUSD": [10],
+                "ETCUSD": [10],
+                "EOSUSD": [10]
+            },
+            "Order_requirements": {
+                "BTCUSD": {
+                    "price_tick": 0.5
+                },
+                "ETHUSD": {
+                    "price_tick": 0.05
+                },
+                "XRPUSD": {
+                    "price_tick": 0.0001
+                },
+                "LTCUSD": {
+                    "price_tick": 0.001
+                },
+                "ETCUSD": {
+                    "price_tick": 0.001
+                },
+                "EOSUSD": {
+                    "price_tick": 0.0001
+                }
+            },
+            "Future_multiple": {
+                "BTCUSD": 0.005,
+                "ETHUSD": 0.1,
+                "XRPUSD": 50,
+                "LTCUSD": 0.5,
+                "ETCUSD": 5,
+                "EOSUSD": 5,
+                "USD": 1
+            }
+        },
+        "Coinflex": {
+            "Future_leverage_options": {
+                "BTCUSD": [10],
+                "ETHUSD": [10],
+                "XRPUSD": [10],
+                "LTCUSD": [10],
+                "ETCUSD": [10],
+                "EOSUSD": [10],
+                "BCHUSD": [10]
+            },
+            "Order_requirements": {
+                "BTCUSD": {
+                    "price_tick": 0.5
+                },
+                "BCHUSD": {
+                    "price_tick": 0.25
+                },
+                "USDCUSD": {
+                    "price_tick": 0.001
+                }
+            },
+            "Future_multiple": {
+                "BTCUSD": 1,
+                "BCHUSD": 1,
+                "USDCUSD": 1
+            },
+            "Future_size_precision": {
+                "BTCUSD": 4,
+                "BCHUSD": 4,
+                "USDCUSD": 4
+            },
+            "Future_contract_usd_face": {
+                "BTCUSD": 1,
+                "ETHUSD": 1,
+                "EOSUSD": 1,
+                "LTCUSD": 1,
+                "BCHUSD": 1,
+                "XRPUSD": 1,
+                "TRXUSD": 1
+            }
+        },
+        "Bitstamp": {
+            "Fees": {
+                "spot": 0.001
+            }
+        },
+        "Hitbtc": {
+            "Fees": {
+                "spot": 0.001
+            }
+        },
+        "Imtoken": {
+            "Fees": {
+                "spot": 0.001
+            }
+        },
+        "ZBcoin": {
+            "Fees": {
+                "spot": 0.00011,
+                "future": 0.0003
+            }
+        },
+        "Bibox": {
+            "Fees": {
+                "spot": 0.00011,
+                "future": 0.0003
+            }
+        },
+        "Fcoin": {
+            "Order_requirements": {
+                "BCHUSD": {
+                    "price_tick": 0.01,
+                    "size_tick": 0.0001,
+                    "price_precision": 2,
+                    "size_precision": 4
+                },
+                "BTCUSD": {
+                    "price_tick": 0.01,
+                    "size_tick": 0.0001,
+                    "price_precision": 2,
+                    "size_precision": 4
+                },
+                "BTMUSD": {
+                    "price_tick": 0.0001,
+                    "size_tick": 0.01,
+                    "price_precision": 4,
+                    "size_precision": 2
+                },
+                "ETCUSD": {
+                    "price_tick": 0.01,
+                    "size_tick": 0.0001,
+                    "price_precision": 2,
+                    "size_precision": 4
+                },
+                "ETHUSD": {
+                    "price_tick": 0.01,
+                    "size_tick": 0.0001,
+                    "price_precision": 2,
+                    "size_precision": 4
+                },
+                "FTBTC": {
+                    "price_tick": 1e-8,
+                    "size_tick": 0.01,
+                    "price_precision": 8,
+                    "size_precision": 2
+                },
+                "FTETH": {
+                    "price_tick": 1e-8,
+                    "size_tick": 0.01,
+                    "price_precision": 8,
+                    "size_precision": 2
+                },
+                "FTUSD": {
+                    "price_tick": 0.000001,
+                    "size_tick": 0.01,
+                    "price_precision": 6,
+                    "size_precision": 2
+                },
+                "ICXETH": {
+                    "price_tick": 0.000001,
+                    "size_tick": 0.0001,
+                    "price_precision": 6,
+                    "size_precision": 4
+                },
+                "LTCUSD": {
+                    "price_tick": 0.01,
+                    "size_tick": 0.0001,
+                    "price_precision": 2,
+                    "size_precision": 4
+                },
+                "OMGETH": {
+                    "price_tick": 0.000001,
+                    "size_tick": 0.0001,
+                    "price_precision": 6,
+                    "size_precision": 4
+                },
+                "ZILETH": {
+                    "price_tick": 1e-8,
+                    "size_tick": 0.01,
+                    "price_precision": 8,
+                    "size_precision": 2
+                },
+                "ZIPETH": {
+                    "price_tick": 1e-8,
+                    "size_tick": 0.01,
+                    "price_precision": 8,
+                    "size_precision": 2
+                }
+            }
+        },
+        "Kucoin": {
+            "Fees": {
+                "spot": 0.001
+            }
+        },
+        "Hadax": {
+            "Fees": {
+                "spot": 0.001
+            }
+        },
+        "Quoinex": {
+            "Reserved_rate": 0.2
+        },
+        "Dextop": {
+            "Order_requirements": {
+                "BUTETH": {
+                    "price_tick": 1e-8,
+                    "size_tick": 1e-8,
+                    "price_precision": 8,
+                    "size_precision": 8
+                },
+                "CHSBETH": {
+                    "price_tick": 1e-8,
+                    "size_tick": 1e-8,
+                    "price_precision": 8,
+                    "size_precision": 8
+                },
+                "CTXCETH": {
+                    "price_tick": 1e-8,
+                    "size_tick": 1e-8,
+                    "price_precision": 8,
+                    "size_precision": 8
+                },
+                "DCCETH": {
+                    "price_tick": 1e-8,
+                    "size_tick": 1e-8,
+                    "price_precision": 8,
+                    "size_precision": 8
+                },
+                "HPBETH": {
+                    "price_tick": 1e-8,
+                    "size_tick": 1e-8,
+                    "price_precision": 8,
+                    "size_precision": 8
+                },
+                "KNCETH": {
+                    "price_tick": 1e-8,
+                    "size_tick": 1e-8,
+                    "price_precision": 8,
+                    "size_precision": 8
+                },
+                "LOOMETH": {
+                    "price_tick": 1e-8,
+                    "size_tick": 1e-8,
+                    "price_precision": 8,
+                    "size_precision": 8
+                },
+                "MEDXETH": {
+                    "price_tick": 1e-8,
+                    "size_tick": 1e-8,
+                    "price_precision": 8,
+                    "size_precision": 8
+                },
+                "PALETH": {
+                    "price_tick": 1e-8,
+                    "size_tick": 1e-8,
+                    "price_precision": 8,
+                    "size_precision": 8
+                },
+                "QKCETH": {
+                    "price_tick": 1e-8,
+                    "size_tick": 1e-8,
+                    "price_precision": 8,
+                    "size_precision": 8
+                },
+                "UPPETH": {
+                    "price_tick": 1e-8,
+                    "size_tick": 1e-8,
+                    "price_precision": 8,
+                    "size_precision": 8
+                },
+                "XUCETH": {
+                    "price_tick": 1e-8,
+                    "size_tick": 1e-8,
+                    "price_precision": 8,
+                    "size_precision": 8
+                },
+                "YEEETH": {
+                    "price_tick": 1e-8,
+                    "size_tick": 1e-8,
+                    "price_precision": 8,
+                    "size_precision": 8
+                },
+                "ZILETH": {
+                    "price_tick": 1e-8,
+                    "size_tick": 1e-8,
+                    "price_precision": 8,
+                    "size_precision": 8
+                }
+            }
+        },
+        "Gateio": {
+            "Fees": {
+                "spot": 0.02
+            }
+        },
+        "Bithumb": {
+            "Fees": {
+                "spot": 0.02
+            }
+        },
+        "Bithumb_normal": {
+            "Fees": {
+                "spot": 0.02
+            }
+        },
+        "Tradeio": {
+            "Fees": {
+                "spot": 0.02
+            }
+        },
+        "Btcc": {
+            "Fees": {
+                "spot": 0.02
+            }
+        },
+        "Coinex": {
+            "Fees": {
+                "spot": 0.02
+            }
+        },
+        "Idex": {
+            "Fees": {
+                "spot": 0.002
+            }
+        },
+        "Coinsuper": {
+            "Order_requirements": {
+                "BCHBTC": {
+                    "price_tick": 1e-8,
+                    "size_tick": 0.0001,
+                    "price_precision": 8,
+                    "size_precision": 4
+                },
+                "BCHETH": {
+                    "price_tick": 1e-8,
+                    "size_tick": 0.0001,
+                    "price_precision": 8,
+                    "size_precision": 4
+                },
+                "BCHUSD": {
+                    "price_tick": 1e-8,
+                    "size_tick": 0.0001,
+                    "price_precision": 8,
+                    "size_precision": 4
+                },
+                "BTCUSD": {
+                    "price_tick": 1e-8,
+                    "size_tick": 0.0001,
+                    "price_precision": 8,
+                    "size_precision": 4
+                },
+                "BUCBTC": {
+                    "price_tick": 1e-8,
+                    "size_tick": 0.0001,
+                    "price_precision": 8,
+                    "size_precision": 4
+                },
+                "BUCETH": {
+                    "price_tick": 1e-8,
+                    "size_tick": 0.0001,
+                    "price_precision": 8,
+                    "size_precision": 4
+                },
+                "CCCXETH": {
+                    "price_tick": 1e-8,
+                    "size_tick": 0.0001,
+                    "price_precision": 8,
+                    "size_precision": 4
+                },
+                "CENBTC": {
+                    "price_tick": 1e-8,
+                    "size_tick": 0.0001,
+                    "price_precision": 8,
+                    "size_precision": 4
+                },
+                "CENETH": {
+                    "price_tick": 1e-8,
+                    "size_tick": 0.0001,
+                    "price_precision": 8,
+                    "size_precision": 4
+                },
+                "DASHBTC": {
+                    "price_tick": 1e-8,
+                    "size_tick": 0.0001,
+                    "price_precision": 8,
+                    "size_precision": 4
+                },
+                "DASHETH": {
+                    "price_tick": 1e-8,
+                    "size_tick": 0.0001,
+                    "price_precision": 8,
+                    "size_precision": 4
+                },
+                "EOSBTC": {
+                    "price_tick": 1e-8,
+                    "size_tick": 0.0001,
+                    "price_precision": 8,
+                    "size_precision": 4
+                },
+                "EOSETH": {
+                    "price_tick": 1e-8,
+                    "size_tick": 0.0001,
+                    "price_precision": 8,
+                    "size_precision": 4
+                },
+                "ETCBTC": {
+                    "price_tick": 1e-8,
+                    "size_tick": 0.0001,
+                    "price_precision": 8,
+                    "size_precision": 4
+                },
+                "ETCETH": {
+                    "price_tick": 1e-8,
+                    "size_tick": 0.0001,
+                    "price_precision": 8,
+                    "size_precision": 4
+                },
+                "ETCUSD": {
+                    "price_tick": 1e-8,
+                    "size_tick": 0.0001,
+                    "price_precision": 8,
+                    "size_precision": 4
+                },
+                "ETHBTC": {
+                    "price_tick": 1e-8,
+                    "size_tick": 0.0001,
+                    "price_precision": 8,
+                    "size_precision": 4
+                },
+                "ETHUSD": {
+                    "price_tick": 1e-8,
+                    "size_tick": 0.0001,
+                    "price_precision": 8,
+                    "size_precision": 4
+                },
+                "ETKBTC": {
+                    "price_tick": 1e-8,
+                    "size_tick": 0.0001,
+                    "price_precision": 8,
+                    "size_precision": 4
+                },
+                "IOVCBTC": {
+                    "price_tick": 1e-8,
+                    "size_tick": 0.0001,
+                    "price_precision": 8,
+                    "size_precision": 4
+                },
+                "LTCBTC": {
+                    "price_tick": 1e-8,
+                    "size_tick": 0.0001,
+                    "price_precision": 8,
+                    "size_precision": 4
+                },
+                "LTCETH": {
+                    "price_tick": 1e-8,
+                    "size_tick": 0.0001,
+                    "price_precision": 8,
+                    "size_precision": 4
+                },
+                "LTCUSD": {
+                    "price_tick": 1e-8,
+                    "size_tick": 0.0001,
+                    "price_precision": 8,
+                    "size_precision": 4
+                },
+                "NEOBTC": {
+                    "price_tick": 1e-8,
+                    "size_tick": 0.0001,
+                    "price_precision": 8,
+                    "size_precision": 4
+                },
+                "NEOETH": {
+                    "price_tick": 1e-8,
+                    "size_tick": 0.0001,
+                    "price_precision": 8,
+                    "size_precision": 4
+                },
+                "NEWOSETH": {
+                    "price_tick": 1e-8,
+                    "size_tick": 0.0001,
+                    "price_precision": 8,
+                    "size_precision": 4
+                },
+                "OMGBTC": {
+                    "price_tick": 1e-8,
+                    "size_tick": 0.0001,
+                    "price_precision": 8,
+                    "size_precision": 4
+                },
+                "OMGETH": {
+                    "price_tick": 1e-8,
+                    "size_tick": 0.0001,
+                    "price_precision": 8,
+                    "size_precision": 4
+                },
+                "QTUMBTC": {
+                    "price_tick": 1e-8,
+                    "size_tick": 0.0001,
+                    "price_precision": 8,
+                    "size_precision": 4
+                },
+                "QTUMETH": {
+                    "price_tick": 1e-8,
+                    "size_tick": 0.0001,
+                    "price_precision": 8,
+                    "size_precision": 4
+                },
+                "XEMBTC": {
+                    "price_tick": 1e-8,
+                    "size_tick": 0.0001,
+                    "price_precision": 8,
+                    "size_precision": 4
+                },
+                "XEMETH": {
+                    "price_tick": 1e-8,
+                    "size_tick": 0.0001,
+                    "price_precision": 8,
+                    "size_precision": 4
+                },
+                "XRPBTC": {
+                    "price_tick": 1e-8,
+                    "size_tick": 0.0001,
+                    "price_precision": 8,
+                    "size_precision": 4
+                },
+                "XRPETH": {
+                    "price_tick": 1e-8,
+                    "size_tick": 0.0001,
+                    "price_precision": 8,
+                    "size_precision": 4
+                }
+            }
+        },
+        "Bitforex": {
+            "Fees": {
+                "spot": 0.02
+            }
+        },
+        "Cryptofacilities": {
+            "Future_contract_usd_face": {
+                "BTCUSD": 1,
+                "ETHUSD": 1,
+                "LTCUSD": 1,
+                "XRPUSD": 1,
+                "BCHUSD": 1
+            }
+        },
+        "Ftx": {
+            "Fees": {
+                "BTCUSD_perp": {
+                    "maker_fee": 0.00015,
+                    "taker_fee": 0.0004
+                },
+                "BCHUSD_perp": {
+                    "maker_fee": 0.00015,
+                    "taker_fee": 0.0004
+                },
+                "BSVUSD_perp": {
+                    "maker_fee": 0.00015,
+                    "taker_fee": 0.0004
+                },
+                "ETHUSD_perp": {
+                    "maker_fee": 0.00015,
+                    "taker_fee": 0.0004
+                },
+                "EOSUSD_perp": {
+                    "maker_fee": 0.00015,
+                    "taker_fee": 0.0004
+                },
+                "LTCUSD_perp": {
+                    "maker_fee": 0.00015,
+                    "taker_fee": 0.0004
+                },
+                "XRPUSD_perp": {
+                    "maker_fee": 0.00015,
+                    "taker_fee": 0.0004
+                },
+                "USDTUSD_perp": {
+                    "maker_fee": 0.00015,
+                    "taker_fee": 0.0004
+                },
+                "DOTUSD_perp": {
+                    "maker_fee": 0.00015,
+                    "taker_fee": 0.0004
+                }
+            },
+            "Future_leverage_options": {
+                "1INCHUSD": [1, 3, 5, 10, 20],
+                "AAPLUSD": [1, 3, 5, 10, 20],
+                "AAVEUSD": [1, 3, 5, 10, 20],
+                "ABNBUSD": [1, 3, 5, 10, 20],
+                "ACBUSD": [1, 3, 5, 10, 20],
+                "ADAUSD": [1, 3, 5, 10, 20],
+                "ALCXUSD": [1, 3, 5, 10, 20],
+                "ALGOUSD": [1, 3, 5, 10, 20],
+                "ALPHAUSD": [1, 3, 5, 10, 20],
+                "ALTUSD": [1, 3, 5, 10, 20],
+                "AMCUSD": [1, 3, 5, 10, 20],
+                "AMDUSD": [1, 3, 5, 10, 20],
+                "AMPLUSD": [1, 3, 5, 10, 20],
+                "AMZNUSD": [1, 3, 5, 10, 20],
+                "APHAUSD": [1, 3, 5, 10, 20],
+                "ARUSD": [1, 3, 5, 10, 20],
+                "ARKKUSD": [1, 3, 5, 10, 20],
+                "ATOMUSD": [1, 3, 5, 10, 20],
+                "AUDIOUSD": [1, 3, 5, 10, 20],
+                "AVAXUSD": [1, 3, 5, 10, 20],
+                "AXSUSD": [1, 3, 5, 10, 20],
+                "BABAUSD": [1, 3, 5, 10, 20],
+                "BADGERUSD": [1, 3, 5, 10, 20],
+                "BALUSD": [1, 3, 5, 10, 20],
+                "BANDUSD": [1, 3, 5, 10, 20],
+                "BAOUSD": [1, 3, 5, 10, 20],
+                "BATUSD": [1, 3, 5, 10, 20],
+                "BBUSD": [1, 3, 5, 10, 20],
+                "BCHUSD": [1, 3, 5, 10, 20],
+                "BILIUSD": [1, 3, 5, 10, 20],
+                "BITWUSD": [1, 3, 5, 10, 20],
+                "BNBUSD": [1, 3, 5, 10, 20],
+                "BNTUSD": [1, 3, 5, 10, 20],
+                "BNTXUSD": [1, 3, 5, 10, 20],
+                "BRZUSD": [1, 3, 5, 10, 20],
+                "BSVUSD": [1, 3, 5, 10, 20],
+                "BTCUSD": [1, 3, 5, 10, 20],
+                "BTMXUSD": [1, 3, 5, 10, 20],
+                "BTTUSD": [1, 3, 5, 10, 20],
+                "BYNDUSD": [1, 3, 5, 10, 20],
+                "CAKEUSD": [1, 3, 5, 10, 20],
+                "CELUSD": [1, 3, 5, 10, 20],
+                "CGCUSD": [1, 3, 5, 10, 20],
+                "CHZUSD": [1, 3, 5, 10, 20],
+                "COMPUSD": [1, 3, 5, 10, 20],
+                "CONVUSD": [1, 3, 5, 10, 20],
+                "CREAMUSD": [1, 3, 5, 10, 20],
+                "CROUSD": [1, 3, 5, 10, 20],
+                "CRONUSD": [1, 3, 5, 10, 20],
+                "CRVUSD": [1, 3, 5, 10, 20],
+                "CUSDTUSD": [1, 3, 5, 10, 20],
+                "DASHUSD": [1, 3, 5, 10, 20],
+                "DAWNUSD": [1, 3, 5, 10, 20],
+                "DEFIUSD": [1, 3, 5, 10, 20],
+                "DENTUSD": [1, 3, 5, 10, 20],
+                "DMGUSD": [1, 3, 5, 10, 20],
+                "DODOUSD": [1, 3, 5, 10, 20],
+                "DOGEUSD": [1, 3, 5, 10, 20],
+                "DOTUSD": [1, 3, 5, 10, 20],
+                "DRGNUSD": [1, 3, 5, 10, 20],
+                "EGLDUSD": [1, 3, 5, 10, 20],
+                "ENJUSD": [1, 3, 5, 10, 20],
+                "EOSUSD": [1, 3, 5, 10, 20],
+                "ETCUSD": [1, 3, 5, 10, 20],
+                "ETHUSD": [1, 3, 5, 10, 20],
+                "ETHEUSD": [1, 3, 5, 10, 20],
+                "EXCHUSD": [1, 3, 5, 10, 20],
+                "FBUSD": [1, 3, 5, 10, 20],
+                "FIDAUSD": [1, 3, 5, 10, 20],
+                "FILUSD": [1, 3, 5, 10, 20],
+                "FLMUSD": [1, 3, 5, 10, 20],
+                "FLOWUSD": [1, 3, 5, 10, 20],
+                "FTMUSD": [1, 3, 5, 10, 20],
+                "FTTUSD": [1, 3, 5, 10, 20],
+                "GBTCUSD": [1, 3, 5, 10, 20],
+                "GDXUSD": [1, 3, 5, 10, 20],
+                "GDXJUSD": [1, 3, 5, 10, 20],
+                "GLDUSD": [1, 3, 5, 10, 20],
+                "GMEUSD": [1, 3, 5, 10, 20],
+                "GOOGLUSD": [1, 3, 5, 10, 20],
+                "GRTUSD": [1, 3, 5, 10, 20],
+                "HBARUSD": [1, 3, 5, 10, 20],
+                "HNTUSD": [1, 3, 5, 10, 20],
+                "HOLYUSD": [1, 3, 5, 10, 20],
+                "HOTUSD": [1, 3, 5, 10, 20],
+                "HTUSD": [1, 3, 5, 10, 20],
+                "HUMUSD": [1, 3, 5, 10, 20],
+                "IOTAUSD": [1, 3, 5, 10, 20],
+                "KAVAUSD": [1, 3, 5, 10, 20],
+                "KINUSD": [1, 3, 5, 10, 20],
+                "KNCUSD": [1, 3, 5, 10, 20],
+                "KSMUSD": [1, 3, 5, 10, 20],
+                "LEOUSD": [1, 3, 5, 10, 20],
+                "LINAUSD": [1, 3, 5, 10, 20],
+                "LINKUSD": [1, 3, 5, 10, 20],
+                "LRCUSD": [1, 3, 5, 10, 20],
+                "LTCUSD": [1, 3, 5, 10, 20],
+                "LUNAUSD": [1, 3, 5, 10, 20],
+                "MAPSUSD": [1, 3, 5, 10, 20],
+                "MATICUSD": [1, 3, 5, 10, 20],
+                "MIDUSD": [1, 3, 5, 10, 20],
+                "MKRUSD": [1, 3, 5, 10, 20],
+                "MRNAUSD": [1, 3, 5, 10, 20],
+                "MSTRUSD": [1, 3, 5, 10, 20],
+                "MTAUSD": [1, 3, 5, 10, 20],
+                "MTLUSD": [1, 3, 5, 10, 20],
+                "NEARUSD": [1, 3, 5, 10, 20],
+                "NEOUSD": [1, 3, 5, 10, 20],
+                "NFLXUSD": [1, 3, 5, 10, 20],
+                "NIOUSD": [1, 3, 5, 10, 20],
+                "NOKUSD": [1, 3, 5, 10, 20],
+                "NVDAUSD": [1, 3, 5, 10, 20],
+                "OKBUSD": [1, 3, 5, 10, 20],
+                "OLYMPICSUSD": [1, 3, 5, 10, 20],
+                "OMGUSD": [1, 3, 5, 10, 20],
+                "ONTUSD": [1, 3, 5, 10, 20],
+                "ORBSUSD": [1, 3, 5, 10, 20],
+                "OXYUSD": [1, 3, 5, 10, 20],
+                "PAXGUSD": [1, 3, 5, 10, 20],
+                "PENNUSD": [1, 3, 5, 10, 20],
+                "PERPUSD": [1, 3, 5, 10, 20],
+                "PFEUSD": [1, 3, 5, 10, 20],
+                "PRESIDENT 2024USD": [1, 3, 5, 10, 20],
+                "PRIVUSD": [1, 3, 5, 10, 20],
+                "PUNDIXUSD": [1, 3, 5, 10, 20],
+                "PYPLUSD": [1, 3, 5, 10, 20],
+                "QTUMUSD": [1, 3, 5, 10, 20],
+                "RAMPUSD": [1, 3, 5, 10, 20],
+                "RAYUSD": [1, 3, 5, 10, 20],
+                "REEFUSD": [1, 3, 5, 10, 20],
+                "RENUSD": [1, 3, 5, 10, 20],
+                "ROOKUSD": [1, 3, 5, 10, 20],
+                "RSRUSD": [1, 3, 5, 10, 20],
+                "RUNEUSD": [1, 3, 5, 10, 20],
+                "SANDUSD": [1, 3, 5, 10, 20],
+                "SCUSD": [1, 3, 5, 10, 20],
+                "SECOUSD": [1, 3, 5, 10, 20],
+                "SHITUSD": [1, 3, 5, 10, 20],
+                "SKLUSD": [1, 3, 5, 10, 20],
+                "SLVUSD": [1, 3, 5, 10, 20],
+                "SNXUSD": [1, 3, 5, 10, 20],
+                "SOLUSD": [1, 3, 5, 10, 20],
+                "SPYUSD": [1, 3, 5, 10, 20],
+                "SQUSD": [1, 3, 5, 10, 20],
+                "SRMUSD": [1, 3, 5, 10, 20],
+                "SRNUSD": [1, 3, 5, 10, 20],
+                "STMXUSD": [1, 3, 5, 10, 20],
+                "STORJUSD": [1, 3, 5, 10, 20],
+                "STXUSD": [1, 3, 5, 10, 20],
+                "SUSHIUSD": [1, 3, 5, 10, 20],
+                "SXPUSD": [1, 3, 5, 10, 20],
+                "THETAUSD": [1, 3, 5, 10, 20],
+                "TLRYUSD": [1, 3, 5, 10, 20],
+                "TOMOUSD": [1, 3, 5, 10, 20],
+                "TRUUSD": [1, 3, 5, 10, 20],
+                "TRXUSD": [1, 3, 5, 10, 20],
+                "TRYBUSD": [1, 3, 5, 10, 20],
+                "TSLAUSD": [1, 3, 5, 10, 20],
+                "TSMUSD": [1, 3, 5, 10, 20],
+                "TWTRUSD": [1, 3, 5, 10, 20],
+                "UBERUSD": [1, 3, 5, 10, 20],
+                "UNIUSD": [1, 3, 5, 10, 20],
+                "UNISWAPUSD": [1, 3, 5, 10, 20],
+                "USDTUSD": [1, 3, 5, 10, 20],
+                "USOUSD": [1, 3, 5, 10, 20],
+                "VETUSD": [1, 3, 5, 10, 20],
+                "WAVESUSD": [1, 3, 5, 10, 20],
+                "WSBUSD": [1, 3, 5, 10, 20],
+                "XAUTUSD": [1, 3, 5, 10, 20],
+                "XEMUSD": [1, 3, 5, 10, 20],
+                "XLMUSD": [1, 3, 5, 10, 20],
+                "XMRUSD": [1, 3, 5, 10, 20],
+                "XRPUSD": [1, 3, 5, 10, 20],
+                "XTZUSD": [1, 3, 5, 10, 20],
+                "YFIUSD": [1, 3, 5, 10, 20],
+                "YFIIUSD": [1, 3, 5, 10, 20],
+                "ZECUSD": [1, 3, 5, 10, 20],
+                "ZILUSD": [1, 3, 5, 10, 20],
+                "ZMUSD": [1, 3, 5, 10, 20],
+                "ZRXUSD": [1, 3, 5, 10, 20]
+            },
+            "Future_size_precision": {
+                "1INCHUSD": 0,
+                "AAPLUSD": 2,
+                "AAVEUSD": 2,
+                "ABNBUSD": 3,
+                "ACBUSD": 1,
+                "ADAUSD": 0,
+                "ALCXUSD": 3,
+                "ALGOUSD": 0,
+                "ALPHAUSD": 0,
+                "ALTUSD": 3,
+                "AMCUSD": 1,
+                "AMDUSD": 2,
+                "AMPLUSD": 0,
+                "AMZNUSD": 3,
+                "APHAUSD": 1,
+                "ARUSD": 1,
+                "ARKKUSD": 2,
+                "ATOMUSD": 2,
+                "AUDIOUSD": 1,
+                "AVAXUSD": 1,
+                "AXSUSD": 1,
+                "BABAUSD": 3,
+                "BADGERUSD": 2,
+                "BALUSD": 2,
+                "BANDUSD": 1,
+                "BAOUSD": 0,
+                "BATUSD": 0,
+                "BBUSD": 1,
+                "BCHUSD": 3,
+                "BILIUSD": 2,
+                "BITWUSD": 2,
+                "BNBUSD": 1,
+                "BNTUSD": 1,
+                "BNTXUSD": 2,
+                "BRZUSD": 0,
+                "BSVUSD": 2,
+                "BTCUSD": 4,
+                "BTMXUSD": 1,
+                "BTTUSD": 0,
+                "BYNDUSD": 2,
+                "CAKEUSD": 1,
+                "CELUSD": 1,
+                "CGCUSD": 1,
+                "CHZUSD": 0,
+                "COMPUSD": 4,
+                "CONVUSD": 0,
+                "CREAMUSD": 2,
+                "CROUSD": 0,
+                "CRONUSD": 1,
+                "CRVUSD": 0,
+                "CUSDTUSD": 0,
+                "DASHUSD": 2,
+                "DAWNUSD": 1,
+                "DEFIUSD": 3,
+                "DENTUSD": 0,
+                "DMGUSD": 1,
+                "DODOUSD": 1,
+                "DOGEUSD": 0,
+                "DOTUSD": 1,
+                "DRGNUSD": 3,
+                "EGLDUSD": 2,
+                "ENJUSD": 0,
+                "EOSUSD": 1,
+                "ETCUSD": 1,
+                "ETHUSD": 3,
+                "ETHEUSD": 1,
+                "EXCHUSD": 3,
+                "FBUSD": 2,
+                "FIDAUSD": 0,
+                "FILUSD": 1,
+                "FLMUSD": 1,
+                "FLOWUSD": 2,
+                "FTMUSD": 0,
+                "FTTUSD": 1,
+                "GBTCUSD": 2,
+                "GDXUSD": 2,
+                "GDXJUSD": 2,
+                "GLDUSD": 2,
+                "GMEUSD": 2,
+                "GOOGLUSD": 3,
+                "GRTUSD": 0,
+                "HBARUSD": 0,
+                "HNTUSD": 1,
+                "HOLYUSD": 0,
+                "HOTUSD": 0,
+                "HTUSD": 2,
+                "HUMUSD": 0,
+                "IOTAUSD": 0,
+                "KAVAUSD": 1,
+                "KINUSD": 0,
+                "KNCUSD": 1,
+                "KSMUSD": 2,
+                "LEOUSD": 0,
+                "LINAUSD": 0,
+                "LINKUSD": 1,
+                "LRCUSD": 0,
+                "LTCUSD": 2,
+                "LUNAUSD": 1,
+                "MAPSUSD": 0,
+                "MATICUSD": 0,
+                "MIDUSD": 3,
+                "MKRUSD": 3,
+                "MRNAUSD": 2,
+                "MSTRUSD": 3,
+                "MTAUSD": 0,
+                "MTLUSD": 1,
+                "NEARUSD": 1,
+                "NEOUSD": 1,
+                "NFLXUSD": 2,
+                "NIOUSD": 2,
+                "NOKUSD": 1,
+                "NVDAUSD": 4,
+                "OKBUSD": 2,
+                "OLYMPICSUSD": 1,
+                "OMGUSD": 1,
+                "ONTUSD": 0,
+                "ORBSUSD": 0,
+                "OXYUSD": 1,
+                "PAXGUSD": 2,
+                "PENNUSD": 2,
+                "PERPUSD": 1,
+                "PFEUSD": 2,
+                "PRESIDENT 2024USD": 1,
+                "PRIVUSD": 3,
+                "PUNDIXUSD": 1,
+                "PYPLUSD": 3,
+                "QTUMUSD": 1,
+                "RAMPUSD": 0,
+                "RAYUSD": 0,
+                "REEFUSD": 0,
+                "RENUSD": 0,
+                "ROOKUSD": 3,
+                "RSRUSD": 0,
+                "RUNEUSD": 1,
+                "SANDUSD": 0,
+                "SCUSD": 0,
+                "SECOUSD": 0,
+                "SHITUSD": 3,
+                "SKLUSD": 0,
+                "SLVUSD": 1,
+                "SNXUSD": 1,
+                "SOLUSD": 0,
+                "SPYUSD": 3,
+                "SQUSD": 3,
+                "SRMUSD": 0,
+                "SRNUSD": 0,
+                "STMXUSD": 0,
+                "STORJUSD": 1,
+                "STXUSD": 0,
+                "SUSHIUSD": 1,
+                "SXPUSD": 1,
+                "THETAUSD": 1,
+                "TLRYUSD": 1,
+                "TOMOUSD": 1,
+                "TRUUSD": 0,
+                "TRXUSD": 0,
+                "TRYBUSD": 0,
+                "TSLAUSD": 2,
+                "TSMUSD": 3,
+                "TWTRUSD": 2,
+                "UBERUSD": 2,
+                "UNIUSD": 1,
+                "UNISWAPUSD": 4,
+                "USDTUSD": 0,
+                "USOUSD": 2,
+                "VETUSD": 0,
+                "WAVESUSD": 1,
+                "WSBUSD": 3,
+                "XAUTUSD": 2,
+                "XEMUSD": 0,
+                "XLMUSD": 0,
+                "XMRUSD": 2,
+                "XRPUSD": 0,
+                "XTZUSD": 3,
+                "YFIUSD": 3,
+                "YFIIUSD": 3,
+                "ZECUSD": 2,
+                "ZILUSD": 0,
+                "ZMUSD": 3,
+                "ZRXUSD": 0
+            },
+            "Future_multiple": {
+                "1INCHUSD": 1,
+                "AAPLUSD": 1,
+                "AAVEUSD": 1,
+                "ABNBUSD": 1,
+                "ACBUSD": 1,
+                "ADAUSD": 1,
+                "ALCXUSD": 1,
+                "ALGOUSD": 1,
+                "ALPHAUSD": 1,
+                "ALTUSD": 1,
+                "AMCUSD": 1,
+                "AMDUSD": 1,
+                "AMPLUSD": 1,
+                "AMZNUSD": 1,
+                "APHAUSD": 1,
+                "ARUSD": 1,
+                "ARKKUSD": 1,
+                "ATOMUSD": 1,
+                "AUDIOUSD": 1,
+                "AVAXUSD": 1,
+                "AXSUSD": 1,
+                "BABAUSD": 1,
+                "BADGERUSD": 1,
+                "BALUSD": 1,
+                "BANDUSD": 1,
+                "BAOUSD": 1,
+                "BATUSD": 1,
+                "BBUSD": 1,
+                "BCHUSD": 1,
+                "BILIUSD": 1,
+                "BITWUSD": 1,
+                "BNBUSD": 1,
+                "BNTUSD": 1,
+                "BNTXUSD": 1,
+                "BRZUSD": 1,
+                "BSVUSD": 1,
+                "BTCUSD": 1,
+                "BTMXUSD": 1,
+                "BTTUSD": 1,
+                "BYNDUSD": 1,
+                "CAKEUSD": 1,
+                "CELUSD": 1,
+                "CGCUSD": 1,
+                "CHZUSD": 1,
+                "COMPUSD": 1,
+                "CONVUSD": 1,
+                "CREAMUSD": 1,
+                "CROUSD": 1,
+                "CRONUSD": 1,
+                "CRVUSD": 1,
+                "CUSDTUSD": 1,
+                "DASHUSD": 1,
+                "DAWNUSD": 1,
+                "DEFIUSD": 1,
+                "DENTUSD": 1,
+                "DMGUSD": 1,
+                "DODOUSD": 1,
+                "DOGEUSD": 1,
+                "DOTUSD": 1,
+                "DRGNUSD": 1,
+                "EGLDUSD": 1,
+                "ENJUSD": 1,
+                "EOSUSD": 1,
+                "ETCUSD": 1,
+                "ETHUSD": 1,
+                "ETHEUSD": 1,
+                "EXCHUSD": 1,
+                "FBUSD": 1,
+                "FIDAUSD": 1,
+                "FILUSD": 1,
+                "FLMUSD": 1,
+                "FLOWUSD": 1,
+                "FTMUSD": 1,
+                "FTTUSD": 1,
+                "GBTCUSD": 1,
+                "GDXUSD": 1,
+                "GDXJUSD": 1,
+                "GLDUSD": 1,
+                "GMEUSD": 1,
+                "GOOGLUSD": 1,
+                "GRTUSD": 1,
+                "HBARUSD": 1,
+                "HNTUSD": 1,
+                "HOLYUSD": 1,
+                "HOTUSD": 1,
+                "HTUSD": 1,
+                "HUMUSD": 1,
+                "IOTAUSD": 1,
+                "KAVAUSD": 1,
+                "KINUSD": 1,
+                "KNCUSD": 1,
+                "KSMUSD": 1,
+                "LEOUSD": 1,
+                "LINAUSD": 1,
+                "LINKUSD": 1,
+                "LRCUSD": 1,
+                "LTCUSD": 1,
+                "LUNAUSD": 1,
+                "MAPSUSD": 1,
+                "MATICUSD": 1,
+                "MIDUSD": 1,
+                "MKRUSD": 1,
+                "MRNAUSD": 1,
+                "MSTRUSD": 1,
+                "MTAUSD": 1,
+                "MTLUSD": 1,
+                "NEARUSD": 1,
+                "NEOUSD": 1,
+                "NFLXUSD": 1,
+                "NIOUSD": 1,
+                "NOKUSD": 1,
+                "NVDAUSD": 1,
+                "OKBUSD": 1,
+                "OLYMPICSUSD": 1,
+                "OMGUSD": 1,
+                "ONTUSD": 1,
+                "ORBSUSD": 1,
+                "OXYUSD": 1,
+                "PAXGUSD": 1,
+                "PENNUSD": 1,
+                "PERPUSD": 1,
+                "PFEUSD": 1,
+                "PRESIDENT 2024USD": 1,
+                "PRIVUSD": 1,
+                "PUNDIXUSD": 1,
+                "PYPLUSD": 1,
+                "QTUMUSD": 1,
+                "RAMPUSD": 1,
+                "RAYUSD": 1,
+                "REEFUSD": 1,
+                "RENUSD": 1,
+                "ROOKUSD": 1,
+                "RSRUSD": 1,
+                "RUNEUSD": 1,
+                "SANDUSD": 1,
+                "SCUSD": 1,
+                "SECOUSD": 1,
+                "SHITUSD": 1,
+                "SKLUSD": 1,
+                "SLVUSD": 1,
+                "SNXUSD": 1,
+                "SOLUSD": 1,
+                "SPYUSD": 1,
+                "SQUSD": 1,
+                "SRMUSD": 1,
+                "SRNUSD": 1,
+                "STMXUSD": 1,
+                "STORJUSD": 1,
+                "STXUSD": 1,
+                "SUSHIUSD": 1,
+                "SXPUSD": 1,
+                "THETAUSD": 1,
+                "TLRYUSD": 1,
+                "TOMOUSD": 1,
+                "TRUUSD": 1,
+                "TRXUSD": 1,
+                "TRYBUSD": 1,
+                "TSLAUSD": 1,
+                "TSMUSD": 1,
+                "TWTRUSD": 1,
+                "UBERUSD": 1,
+                "UNIUSD": 1,
+                "UNISWAPUSD": 1,
+                "USDTUSD": 1,
+                "USOUSD": 1,
+                "VETUSD": 1,
+                "WAVESUSD": 1,
+                "WSBUSD": 1,
+                "XAUTUSD": 1,
+                "XEMUSD": 1,
+                "XLMUSD": 1,
+                "XMRUSD": 1,
+                "XRPUSD": 1,
+                "XTZUSD": 1,
+                "YFIUSD": 1,
+                "YFIIUSD": 1,
+                "ZECUSD": 1,
+                "ZILUSD": 1,
+                "ZMUSD": 1,
+                "ZRXUSD": 1
+            },
+            "Future_contract_types": ["perp", "quarter", "next_quarter"]
+        },
+        "Indodax": {
+            "Fees": {
+                "BTCIDR_spot": {
+                    "maker_fee": 0.0006,
+                    "taker_fee": 0.0006
+                },
+                "USDTIDR_spot": {
+                    "maker_fee": 0.0006,
+                    "taker_fee": 0.0006
+                }
+            },
+            "Future_contract_usd_face": {},
+            "Future_leverage_options": {},
+            "Future_size_precision": {},
+            "Future_multiple": {}
+        },
+        "Blockchain": {
+            "Fees": {
+                "BTCIDR_spot": {
+                    "maker_fee": 0.0006,
+                    "taker_fee": 0.0006
+                },
+                "USDTIDR_spot": {
+                    "maker_fee": 0.0006,
+                    "taker_fee": 0.0006
+                }
+            },
+            "Future_contract_usd_face": {},
+            "Future_leverage_options": {},
+            "Future_size_precision": {},
+            "Future_multiple": {}
+        },
+        "Yahoo": {
+            "Fees": {
+                "USDIDR_forex": {
+                    "maker_fee": 0.002,
+                    "taker_fee": 0.002
+                }
+            },
+            "Future_multiple": {
+                "USDKRW": 100,
+                "USDIDR": 1,
+                "USDJPY": 10000,
+                "USDMXN": 10000,
+                "USDZAR": 10000,
+                "USDCAD": 10000,
+                "USDBRL": 10000,
+                "USDPLN": 10000,
+                "USDTRY": 10000,
+                "AUDUSD": 10000,
+                "EURUSD": 10000
+            },
+            "Future_leverage_options": {
+                "USDKRW": [10],
+                "USDIDR": [10],
+                "USDJPY": [10],
+                "USDMXN": [10],
+                "USDZAR": [10],
+                "USDTRY": [10],
+                "USDCAD": [10],
+                "USDBRL": [10],
+                "USDPLN": [10],
+                "AUDUSD": [10],
+                "EURUSD": [10]
+            }
+        },
+        "Bitcom": {
+            "Future_contract_usd_face": {
+                "BTCUSD": 1,
+                "ETHUSD": 1
+            },
+            "Future_size_precision": {
+                "BTCUSD": -1,
+                "ETHUSD": 0
+            },
+            "Future_leverage_options": {
+                "BTCUSD": [5],
+                "ETHUSD": [5]
+            },
+            "Future_contract_types": ["perp", "quarter", "next_quarter"]
+        }
+    },
+    "exchange_default_fiat_ccy": {
+        "Alameda": "USDT",
+        "B2c2": "USDT",
+        "Falconx": "USDT",
+        "Bluefire": "USDT",
+        "Ig": "USD",
+        "Coinbase": "USD",
+        "Blockchain": "USD",
+        "Huobi": "USDT",
+        "Binance": "USDT",
+        "BinanceIsolatedMargin": "USDT",
+        "BinanceFuture": "USD",
+        "Apollo": "USDT",
+        "AmberOTC": "USDT",
+        "AmberAPP": "USDT",
+        "AmberOTCTreasury": "USDT",
+        "AmberAPPTreasury": "USDT",
+        "Tokenomy": "USD",
+        "FJBI": "USDT",
+        "BitMEX": "USD",
+        "Bybit": "USD",
+        "Ftx": "USD",
+        "Deribit": "USD",
+        "OKcoin": "USDT",
+        "Indodax": "IDR",
+        "NewOKcoin": "USDT",
+        "NewOKcoinUSDT": "USDT",
+        "HuobiFuture": "USD",
+        "HuobiFuturePerp": "USD",
+        "HuobiPerpUSDT": "USDT",
+        "HuobiPerpUSDTCross": "USDT",
+        "Bitfinex": "USD",
+        "Bitso": "USD",
+        "Luno": "ZAR",
+        "Bithumb": "KRW",
+        "Bithumb_normal": "KRW",
+        "Upbit": "KRW",
+        "Cex": "EUR",
+        "Btcmarket": "AUD",
+        "Bitbay": "PLN",
+        "Bitflyer": "JPY",
+        "Quoinex": "JPY",
+        "Btcturk": "TRY",
+        "Bitstamp": "USD",
+        "Kraken": "USD"
+    },
+    "ccy_order_size_limit": {
+        "USD": 100000000000,
+        "USDT": 100000000000,
+        "ALGO": 100000000000,
+        "BNB": 100000000000,
+        "BUSD": 100000000000,
+        "HT": 100000000000,
+        "LINK": 100000000000,
+        "BAT": 100000000000,
+        "ETH": 100000000000,
+        "OMG": 100000000000,
+        "USDC": 100000000000,
+        "DAI": 100000000000,
+        "TUSD": 100000000000,
+        "PAX": 100000000000,
+        "BTC": 100000000000,
+        "EUR": 100000000000,
+        "AUD": 100000000000,
+        "XRP": 100000000000,
+        "ADA": 100000000000,
+        "TRX": 100000000000,
+        "EOS": 100000000000,
+        "BCH": 100000000000,
+        "ETC": 100000000000,
+        "LTC": 100000000000,
+        "BCHABC": 100000000000,
+        "BTG": 100000000000,
+        "BSV": 100000000000,
+        "TT": 100000000000,
+        "NEO": 100000000000,
+        "ZEC": 100000000000,
+        "XMR": 100000000000,
+        "CET": 100000000000,
+        "VIAT": 100000000000,
+        "DASH": 100000000000,
+        "CARD": 100000000000,
+        "BTM": 100000000000,
+        "VET": 100000000000,
+        "CTXC": 100000000000,
+        "GNT": 100000000000,
+        "WINGS": 100000000000,
+        "CMT": 100000000000,
+        "LOOM": 100000000000,
+        "LFT": 100000000000,
+        "DOGE": 100000000000,
+        "QTUM": 100000000000,
+        "HC": 100000000000,
+        "IOST": 100000000000,
+        "ATOM": 100000000000,
+        "CELR": 100000000000,
+        "IOTA": 100000000000
+    }
+}
