@@ -82,9 +82,18 @@ def format_futures_daily_file(contract:str, margin_type:str, data_type:str, freq
         if freq not in FuturesDataFrequency:
             raise ValueError(f"{freq} not in the supported data frequencies: {FuturesDataFrequency.list()}")
         return 'data/futures/{}/daily/{}/{}/{}/{}-{}-{}-{}-{}.zip'.format(margin_type, data_type, contract.upper(), freq, contract.upper(), freq, year, month, date)
-    elif data_type in ['trades', 'aggTrades']:
+    else:
         return 'data/futures/{}/daily/{}/{}/{}-{}-{}-{}-{}.zip'.format(margin_type, data_type, contract.upper(), contract.upper(), data_type, year, month, date)
 
+
+def format_options_daily_file(symbol:str, data_type:str, freq:str, year:int, month:int, date:int) -> str:
+    if month < 10:
+        month = f'0{month}'
+    if date < 10:
+        date = f'0{date}'
+    if data_type not in OptionDataType:
+        raise ValueError(f'{data_type} not in the supported data types: {OptionDataType.list()}')
+    return 'data/option/daily/{}/{}/{}-{}-{}-{}-{}.zip'.format(data_type, symbol.upper(), symbol.upper(), data_type, year, month, date)
 
 def match_date_regex(arg_value:str, pattern = re.compile(r'\d{4}-\d{2}-\d{2}')) -> str:
     if not pattern.match(arg_value):
