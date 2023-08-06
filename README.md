@@ -35,4 +35,4 @@ run update.py in ./core/configs
 
 ### Download data
 
-Please refer test.py, the sample downloaded data is in
+Please refer test.py, the sample downloaded data is in ./BinanceData
