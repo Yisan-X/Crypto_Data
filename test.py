@@ -1,80 +1,97 @@
-from Binance import DataFetcher
-from Binance.class_types import *
+from core import DataFetcher
+from core import InstrumentType, DataFrequency, DataType
+from core import binance
 
 from loguru import logger
 
-save_dir = "/Volumes/LIngxiao's Disk/BinanceData"
+save_dir = "./BinanceData"
 
 
 fetcher = DataFetcher(save_dir)
 
 def future_test():
-    quote_coin = "BTC"
-    base_coin = "USDT"
     date = "2023-07-31"
-    instrumentType = InstrumentType.FUTURES
+    instrumentID = 'BinanceUsdMargin_BTC.USDT_perp'
     dataType = DataType.KLINE
-    freqType = FuturesDataFrequency.MIN1
-    marginType = FuturesContractType.USD_MARGIN
-    df = fetcher.fetch_binance_date_data(
-        quote_coin=quote_coin,
-        base_coin=base_coin,
-        instrumentType=instrumentType,
-        date=date,
-        data_type=dataType,
-        freq=freqType,
-        margin_type=marginType
+    freqType = DataFrequency.MIN1
+    df = fetcher.fetch_date(
+        instrumentID, date, dataType, freqType
     )
     logger.info(df.head().T)
 
     dataType = DataType.BOOK_TICKER
-    df = fetcher.fetch_binance_date_data(
-        quote_coin=quote_coin,
-        base_coin=base_coin,
-        instrumentType=instrumentType,
-        date=date,
-        data_type=dataType,
-        freq=freqType,
-        margin_type=marginType
+    df = fetcher.fetch_date(
+        instrumentID, date, dataType, freqType
     )
     logger.info(df.head().T)    
 
-def spot_test():
-    quote_coin = "BTC"
-    base_coin = "USDT"
     date = "2023-07-31"
-    instrumentType = InstrumentType.SPOT
+    instrumentID = 'BinanceCoinMargin_BTC.USD_perp'
     dataType = DataType.KLINE
-    freqType = FuturesDataFrequency.MIN1
-    df = fetcher.fetch_binance_date_data(
-        quote_coin=quote_coin,
-        base_coin=base_coin,
-        instrumentType=instrumentType,
-        date=date,
-        data_type=dataType,
-        freq=freqType,
+    freqType = DataFrequency.MIN1
+    df = fetcher.fetch_date(
+        instrumentID, date, dataType, freqType
+    )
+    logger.info(df.head().T)
+
+    dataType = DataType.BOOK_TICKER
+    df = fetcher.fetch_date(
+        instrumentID, date, dataType, freqType
+    )
+    logger.info(df.head().T)    
+
+    date = "2023-07-31"
+    instrumentID = 'BinanceCoinMargin_BTC.USD_quarter'
+    dataType = DataType.KLINE
+    freqType = DataFrequency.MIN1
+    df = fetcher.fetch_date(
+        instrumentID, date, dataType, freqType
+    )
+    logger.info(df.head().T)
+
+    dataType = DataType.BOOK_TICKER
+    df = fetcher.fetch_date(
+        instrumentID, date, dataType, freqType
+    )
+    logger.info(df.head().T)  
+
+    date = "2023-07-31"
+    instrumentID = 'BinanceCoinMargin_BTC.USD_nextquarter'
+    dataType = DataType.KLINE
+    freqType = DataFrequency.MIN1
+    df = fetcher.fetch_date(
+        instrumentID, date, dataType, freqType
+    )
+    logger.info(df.head().T)
+
+    dataType = DataType.BOOK_TICKER
+    df = fetcher.fetch_date(
+        instrumentID, date, dataType, freqType
+    )
+    logger.info(df.head().T)  
+
+def spot_test():
+    date = "2023-07-31"
+    instrumentID = 'Binance_BTC.USDT_spot'
+    dataType = DataType.KLINE
+    freqType = DataFrequency.MIN1
+    df = fetcher.fetch_date(
+        instrumentID, date, dataType, freqType
     )
     logger.info(df.head().T)
 
 def option_test():
-    quote_coin = "BTC"
-    base_coin = "USDT"
     date = "2023-07-31"
-    instrumentType = InstrumentType.OPTIONS
+    instrumentID = 'BinanceOptions_BTC.USDT_option'
     dataType = DataType.BVOL_INDEX
-    freqType = FuturesDataFrequency.MIN1
-    df = fetcher.fetch_binance_date_data(
-        quote_coin=quote_coin,
-        base_coin=base_coin,
-        instrumentType=instrumentType,
-        date=date,
-        data_type=dataType,
-        freq=freqType,
+    freqType = DataFrequency.MIN1
+    df = fetcher.fetch_date(
+        instrumentID, date, dataType, freqType
     )
     logger.info(df.head().T)
 
 
 if __name__ == '__main__':
-    # future_test()
-    # spot_test()
+    future_test()
+    spot_test()
     option_test()
